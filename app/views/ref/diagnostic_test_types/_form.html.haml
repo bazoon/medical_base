@@ -1,0 +1,8 @@
+=bootstrap_form_for(@ref_diagnostic_test_type) do |f|
+  =f.text_field :name, :label => "Наименование"
+  =f.text_field :valid_period,:label => "Период действия",:hint => "Количество дней" 
+  =f.text_field :tag_list,:label => "Теги"
+  .form-actions
+    =f.submit "Сохранить",:class => "btn primary"
+
+

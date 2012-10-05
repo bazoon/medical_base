@@ -1,0 +1,31 @@
+- present "ClientOperations" do |p|
+
+  -p.prepare(@disps,"Диспансерное наблюдение",notice,@client)
+
+  =p.client_header
+
+  =p.table_or_empty do
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Дата
+        %th Врач
+        %th Заболевание
+        %th Группа
+        %th Результат 
+        %th
+        %th
+
+      - @disps.each do |disp|
+        %tr
+          %td= l disp.actual_date
+          %td= disp.user.short_fio_with_doctor_type
+          %td= disp.mkb.mkb
+          %td= disp.mkb.disp_group
+          %td= disp.result_info
+
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_disp_path(@client,disp)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , client_disp_path(@client,disp), :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'Добавить', new_client_disp_path(@client)

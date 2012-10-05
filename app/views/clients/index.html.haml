@@ -1,0 +1,41 @@
+%h2 Пациенты 
+%br
+
+= link_to 'Новый пациент', new_client_path
+%br
+%br
+
+-unless flash.empty?
+  %p#notice= notice
+
+%div.autopagerize_page_element
+
+  = paginate @clients
+
+  %br
+
+  %table{:class => "table table-bordered table-striped"}
+    
+    %thead
+      %tr
+        %th ФИО
+        %th Номер карты
+        %th Дата рождения
+        %th .
+        %th .
+      
+    %tbody      
+      - @clients.each do |client|
+        %tr
+          %td= link_to(client.short_fio, operations_client_path(client))
+          %td= client.num_card
+          %td= l client.birth_date.to_date unless client.birth_date.nil?
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"), edit_client_path(client), :id => "e_#{client.id}"
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus"), client, :confirm => 'Are you sure?', :method => :delete, :id => "d_#{client.id}"
+
+
+
+
+  %br
+
+  = link_to 'Новый пациент', new_client_path

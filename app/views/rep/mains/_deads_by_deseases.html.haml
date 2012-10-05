@@ -1,0 +1,45 @@
+%h3 Распределение умерших по классам болезней
+- report "DeadsByDesease" do |p|
+  - p.prepare_fixed_num_rows(sd,ed,years,14,sector_num)
+
+  %table.table.table-condensed.table-striped.table-bordered
+
+    %thead
+      %tr
+        %th Наименование
+        -years.each do |k|
+          %th{:colspan =>2}= k
+      %tr
+        %th 
+        -years.each do |k|
+          %th факт
+          %th % 
+
+    %tbody
+
+      - {1 => "Инфекционные и паразитарные болезни",
+         2 => "Новообразования",
+         3 => "Болезни эндокринной системы",
+         4 => "Болезни крови и кроветворной системы",
+         5 => "Болезни нервной системы",
+         6 => "Болезни уха и сосцевидного отростка",
+         7 => "Болезни глаза и его придатков",
+         8 => "Болезни системы кровообращения",
+         9 => "Болезни органов дыхания",
+         10 => "Болезни органов пищеварения",
+         11 => "Болезни мочеполовой системы",
+         12 => "Болезни кожи и подкожной клетчатки",
+         13 => "Болезни костно-мышечной системы",
+         14 => "Травмы и отравления"}.each do |k,v|
+        %tr
+          %td
+            =v
+            -p.years.each do |year|
+              %td= p.observed(year,k)
+              %td= p.get_rel(p.observed(year,k),p.year_total(year))
+      %tr
+        %td
+          Всего
+          -p.years.each do |year|
+            %td= p.year_total(year)
+            %td 100 %

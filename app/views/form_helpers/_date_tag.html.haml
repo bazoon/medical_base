@@ -1,0 +1,7 @@
+.control-group
+  =label_tag label, nil, :class => "control-label"
+  .controls
+    =text_field_tag field_name,"",:class => "span4 ui-datepicker"
+    %div.help-block
+      дд.мм.гггг 
+      =hint if hint

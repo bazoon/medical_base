@@ -1,0 +1,8 @@
+=bootstrap_form_for [@client, @htm_help_note] do |f|
+  =f.date_select :actual_date,:label => "Дата"
+  =f.collection_select :htm_help_type_id, Ref::HtmHelpType.all,:id,:name,:label => "Тип"
+  =f.text_field :note, :label => "Комментарий"
+  .form-actions
+    =f.submit "Сохранить",:class => "btn primary"
+
+

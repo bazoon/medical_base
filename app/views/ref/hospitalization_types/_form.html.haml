@@ -1,0 +1,5 @@
+=bootstrap_form_for @ref_hospitalization_type do |f|
+  =f.text_field :name, :label => "Тип госпитализации"
+  .form-actions
+    =f.submit "Сохранить",:class => "btn primary"
+

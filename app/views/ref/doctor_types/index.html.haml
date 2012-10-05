@@ -1,0 +1,22 @@
+-present "Ref" do |p|
+  -p.prepare(@ref_doctor_types,"Специальности",notice)
+
+  =p.header
+
+  =p.table_or_empty do
+
+
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Тип
+        %th
+        %th
+
+      - @ref_doctor_types.each do |ref_doctor_type|
+        %tr
+          %td= ref_doctor_type.name
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"), edit_ref_doctor_type_path(ref_doctor_type)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , ref_doctor_type, :confirm => 'Are you sure?', :method => :delete if ref_doctor_type.can_be_deleted
+%br
+
+= link_to t(:new_record),new_ref_doctor_type_path

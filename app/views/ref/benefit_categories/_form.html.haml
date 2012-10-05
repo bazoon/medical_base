@@ -1,0 +1,10 @@
+=bootstrap_form_for [@ref_benefit_category] do |f|
+  =f.text_field :code,:label => "Код"
+  =f.text_field :short_name, :label => "Краткое наименование"
+  =f.text_field :full_name, :label => "Полное наименование"
+  =f.text_field :percent, :label => "Процент"
+  =f.select :source,[["Ф",1],["Т",2]],:label => "Источник финансирования"
+  .form-actions
+    =f.submit "Сохранить",:class => "btn primary"
+
+

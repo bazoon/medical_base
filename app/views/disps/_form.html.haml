@@ -1,0 +1,19 @@
+=bootstrap_form_for [@client, @disp] do |f|
+  = f.error_messages
+  %fieldset
+    %legend 
+      Исходные данные
+    =f.date_select :actual_date, :label => "Дата направления" 
+    =f.collection_select :user_id, User.order(:surname),:id,:short_fio_with_doctor_type, :label => "Врач"
+    =f.collection_select :mkb_id, @client.mkbs,:id,:mkb, :label => "Заболевание"
+  %fieldset
+    %legend 
+      Заключение
+    =f.radio_button :result,Disp::STABLE,:label => "Без изменений", :checked => true 
+    =f.radio_button :result,Disp::PROGRESS,:label => "Лучше" 
+    =f.radio_button :result,Disp::REGRESS,:label => "Хуже"
+
+
+
+  .form-actions
+    =f.submit "Сохранить",:class => "btn primary"

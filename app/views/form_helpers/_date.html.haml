@@ -1,0 +1,10 @@
+.clearfix
+  =f.label label
+  .input
+    -unless not defined?(value) or value.nil?
+      =f.text_field field_name,:class => "span6 ui-datepicker",:value => l(value)
+    -else
+      =f.text_field field_name,:class => "span6 ui-datepicker"
+    %span.help-block
+      дд.мм.гггг 
+      =hint if hint

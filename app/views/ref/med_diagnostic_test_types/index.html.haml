@@ -1,0 +1,22 @@
+-present "Ref" do |p|
+  -p.prepare(@ref_med_diagnostic_test_types,"Виды диагностики",notice)
+
+  =p.header
+
+  =p.table_or_empty do
+
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Наименование
+        %th
+        %th
+
+      - @ref_med_diagnostic_test_types.each do |ref_med_diagnostic_test_type|
+        %tr
+          %td= ref_med_diagnostic_test_type.name
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_ref_med_diagnostic_test_type_path(ref_med_diagnostic_test_type)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") ,ref_med_diagnostic_test_type, :confirm => 'Are you sure?', :method => :delete if ref_med_diagnostic_test_type.can_be_deleted
+
+%br
+
+= link_to 'Новый', new_ref_med_diagnostic_test_type_path

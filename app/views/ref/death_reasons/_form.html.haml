@@ -1,0 +1,4 @@
+=bootstrap_form_for @ref_death_reason do |f|
+  =f.text_field :name, :label => "Наименование"
+  .form-actions
+    =f.submit "Сохранить",:class => "btn primary"

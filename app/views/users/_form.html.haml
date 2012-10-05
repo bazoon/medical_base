@@ -1,0 +1,9 @@
+= bootstrap_form_for [@user] do |f|
+  =f.error_messages
+
+  =f.text_field :surname,:label => "Фамилия"
+  =f.text_field :name,:label => "Имя"
+  =f.text_field :father_name,:label => "Отчество"
+  =f.collection_select :doctor_type_id, Ref::DoctorType.all,:id,:name, :label => "Врач"
+  .actions
+    =f.submit "Сохранить",:class => "btn primary"

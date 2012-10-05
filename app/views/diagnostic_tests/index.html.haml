@@ -1,0 +1,28 @@
+- present "ClientOperations" do |p|
+
+  -p.prepare(@diagnostic_tests,"Диагностические исследования",notice,@client)
+
+  =p.client_header
+
+  =p.table_or_empty do
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Дата
+        %th Тип исследования
+        %th Результат
+        %th Комментарий
+        %th
+        %th
+
+      - @diagnostic_tests.each do |diagnostic_test|
+        %tr
+          %td= l diagnostic_test.test_date
+          %td= diagnostic_test.diagnostic_test_type.name
+          %td= diagnostic_test.total_info 
+          %td= diagnostic_test.result
+                
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_diagnostic_test_path(@client,diagnostic_test)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , client_diagnostic_test_path(@client,diagnostic_test), :confirm => 'Are you sure?', :method => :delete
+  %br
+
+  = link_to t(:new_record), new_client_diagnostic_test_path(@client)

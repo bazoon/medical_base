@@ -1,0 +1,23 @@
+- present "ClientOperations" do |p|
+  -p.prepare(@med_diagnostic_tests,"Лечебно-диагностическая работа",notice,@client)
+
+  =p.client_header
+
+  =p.table_or_empty do
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Дата
+        %th Тип исследования
+        %th Результат
+        %th
+        %th
+
+      - @med_diagnostic_tests.each do |med_diagnostic_test|
+        %tr
+          %td= l med_diagnostic_test.test_date
+          %td= med_diagnostic_test.hospitalization_type_name
+          %td= med_diagnostic_test.result
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_med_diagnostic_test_path(@client,med_diagnostic_test)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") ,client_med_diagnostic_test_path(@client,med_diagnostic_test), :confirm => 'Are you sure?', :method => :delete
+%br
+= link_to t(:new_record), new_client_med_diagnostic_test_path(@client)

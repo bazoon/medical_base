@@ -1,0 +1,8 @@
+=bootstrap_form_for [@client, @sanatorium_note] do |f|
+  =f.date_select :neediness_ref_date, :label => "Справка о нуждаемости"
+  =f.date_select :sanatorium_card_fill_date,:label => "Санаторно-курортная карта"
+  =f.date_select :period_start,:label => "Дата заезда"
+  =f.date_select :period_end, :label => "Дата выбытия" 
+  =f.collection_select :sanatorium_id,Ref::Sanatorium.all,:id,:name,:label => "Санаторий"
+  .form-actions
+    =f.submit "Сохранить",:class => "btn primary"

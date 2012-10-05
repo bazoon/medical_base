@@ -1,0 +1,24 @@
+- present "ClientOperations" do |p|
+  -p.prepare(@htm_help_notes,"Высоко-технологичная медицинская помощь",notice,@client)
+
+  =p.client_header
+
+  =p.table_or_empty do
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Дата
+        %th Тип ВТМП
+        %th Комментарий
+        %th
+        %th
+
+      - @htm_help_notes.each do |htm_help_note|
+        %tr
+          %td= l htm_help_note.actual_date
+          %td= htm_help_note.htm_help_type.name
+          %td= htm_help_note.note
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_htm_help_note_path(@client,htm_help_note)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") ,client_htm_help_note_path(@client,htm_help_note), :confirm => 'Are you sure?', :method => :delete
+
+  %br
+  = link_to t(:new_record), new_client_htm_help_note_path(@client)

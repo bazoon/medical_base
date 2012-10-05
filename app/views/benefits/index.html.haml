@@ -1,0 +1,31 @@
+- present "ClientOperations" do |p|
+
+  -p.prepare(@benefits,"Льготы",notice,@client)
+
+  =p.client_header
+
+  =p.table_or_empty do
+    %table{:class => "table table-bordered table-striped"}
+
+      %tr
+        %th Категория льготы
+        %th Документ
+        %th Основная льгота
+        %th
+        %th
+
+      - @benefits.each do |benefit|
+        %tr
+          %td= benefit.benefit_category
+          %td= benefit.document
+          %td= benefit.primary_benefit?
+
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_benefit_path(@client,benefit)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , client_benefit_path(@client,benefit), :confirm => 'Are you sure?', :method => :delete
+
+  %br
+
+  = link_to t(:new_record), new_client_benefit_path 
+
+
+

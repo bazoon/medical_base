@@ -1,0 +1,31 @@
+-present "Ref" do |p|
+  -p.prepare(@ref_mkb_types,"Медицинский классификатор болезней (10)",notice)
+
+  =p.header
+
+  =form_tag ref_mkb_types_path, :id => "ref_mkb_types" , :method => 'get' do 
+    =text_field_tag :search_mkb_type, params[:search] 
+    =submit_tag "Поиск", :name => nil 
+    %br
+    %span{:class => "help-block"}
+      В поле поиска можно указать 
+
+
+
+  =p.table_or_empty do
+
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Наименование
+        %th Код
+        %th .
+        %th .
+      - @ref_mkb_types.each do |ref_mkb_type|
+        %tr
+          %td= ref_mkb_type.name
+          %td= ref_mkb_type.code
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"), edit_ref_mkb_type_path(ref_mkb_type)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") ,ref_mkb_type, :confirm => 'Are you sure?', :method => :delete if ref_mkb_type.can_be_deleted
+%br
+
+= link_to I18n.t(:new_record),new_ref_mkb_type_path,:accesskey => "n"

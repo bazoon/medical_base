@@ -1,0 +1,37 @@
+%h3 Госпитализация больных терапевтического профиля по экстренным показаниям
+- report "HospTherapExtra" do |p|
+  - p.prepare_fixed_num_rows(sd,ed,years,3,sector_num)
+
+  %table.table.table-condensed.table-striped.table-bordered
+
+    %thead
+      %tr
+        %th Наименование
+        -years.each do |k|
+          %th{:colspan =>2}= k
+      %tr
+        %th 
+        -years.each do |k|
+          %th факт
+          %th % 
+
+    %tbody
+
+      %tr
+        %td
+          Всего
+          -p.years.each do |year|
+            %td= p.year_total(year)
+            %td 100 %
+
+      - {1 => "Сердечно-сосудистой системы",
+         2 => "Болезни органов дыхания",
+         3 => "Болезни органов пищеварения"}.each do |k,v|
+        %tr
+          %td
+            =v
+            -p.years.each do |year|
+              %td= p.observed(year,k)
+              %td= p.get_rel(p.observed(year,k),p.year_total(year))
+
+

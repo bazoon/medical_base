@@ -1,0 +1,31 @@
+- present "ClientOperations" do |p|
+  -p.prepare(@mkbs,"Заболевания (по МКБ-10)",notice,@client)
+
+  =p.client_header
+
+  =p.table_or_empty do
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Наименование
+        %th Дата
+        %th Дата открепления
+        %th Группа
+        %th Врач
+        %th
+        %th
+
+      - @mkbs.each do |mkb|
+        %tr
+          %td= mkb.mkb
+          %td= ldate(mkb.actual_date)
+          %td= ldate(mkb.out_date)
+          %td= mkb.disp_group
+          %td= "#{mkb.user.doctor_type.name} / #{mkb.user.short_fio}"
+
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_mkb_path(@client,mkb)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , client_mkb_path(@client,mkb), :confirm => 'Are you sure?', :method => :delete
+%br
+= link_to t(:new_record), new_client_mkb_path 
+
+
+

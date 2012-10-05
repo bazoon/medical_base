@@ -1,0 +1,62 @@
+%h3 Госпитализация
+- report "Hosp" do |p|
+  - p.prepare_fixed_num_rows(sd,ed,years,6,sector_num)
+  - p.fill
+
+  %table.table.table-condensed.table-striped.table-bordered
+
+    %thead
+      %tr
+        %th Наименование
+        -years.each do |k|
+          %th{:colspan =>2}= k
+      %tr
+        %th Плановая госпитализация
+        -years.each do |k|
+          %th абс.
+          %th % 
+
+    %tbody
+
+      %tr
+        %td Всего нуждались в госпитализации
+        -p.years.each do |year|
+          %td=p.plan_total(year)
+          %td 100%
+
+      %tr
+        %td Госпитализировано из них
+        -p.years.each do |year|
+          %td=p.plan_total(year)
+          %td 100%
+
+      -p.plan_places.each_pair do |place_name,sent|
+        %tr
+          %td=place_name
+          -p.years.each do |year|
+            %td=p.value_or_zero(sent[year])
+            %td=p.get_rel(sent[year],p.plan_total(year))
+
+
+      %tr
+        %th Экстренная госпитализация
+        -years.each do |k|
+          %td 
+          %td 
+      - {1 => "Нуждалось в госпитализации",
+         2 => "Госпитализировано",
+         3 => "Не госпитализировано, из них: ",
+         4 => "В связи с отказом больного",
+         5 => "В связи с отстутствием мест",
+         6 => "В связи с не подтвержденным диагнозом"}.each do |k,v|
+        %tr
+          %td
+            =v
+            -p.years.each do |year|
+              %td= p.observed(year,k)
+              %td= p.get_rel(p.observed(year,k),p.observed(year,1))
+
+
+
+
+

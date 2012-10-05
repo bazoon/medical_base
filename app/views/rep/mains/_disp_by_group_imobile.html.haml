@@ -1,0 +1,36 @@
+%h3 Распределение маломобильных больных по группам диспансерного наблюдения
+- report "DispByGroupImobile" do |p|
+  - p.prepare_fixed_num_rows(sd,ed,years,5,sector_num)
+  %table.table.table-condensed.table-striped.table-bordered
+
+    %thead
+      %tr
+        %th Группа
+        -years.each do |k|
+          %th{:colspan =>2}= k
+
+      %tr
+        %th 
+        -years.each do |k|
+          %th Абс. число
+          %th % 
+    %tbody
+
+      - {1 => "1",
+         2 => "2",
+         3 => "3",
+         4 => "4",
+         5 => "5"}.each do |k,v|
+        %tr
+          %td
+            =v
+            -p.years.each do |year|
+              %td= p.observed(year,k)
+              %td= p.get_rel(p.observed(year,k),p.year_total(year))
+          
+      %tr
+        %td
+          Всего
+          -p.years.each do |year|
+            %td= p.year_total(year)
+            %td 100 %

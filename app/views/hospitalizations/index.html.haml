@@ -1,0 +1,29 @@
+- present "ClientOperations" do |p|
+
+  -p.prepare(@hospitalizations,"Госпитализации",notice,@client)
+
+  =p.client_header
+  =p.table_or_empty do
+    %table{:class => "table table-bordered table-striped"}
+      %tr
+        %th Дата
+        %th Статус
+        %th Заболевание
+        %th ЛПУ
+        %th Тип госпитализации
+        %th
+        %th
+
+      - @hospitalizations.each do |hospitalization|
+        %tr
+          %td= ldate(hospitalization.request_date)
+          %td= hospitalization.status_info
+          %td= hospitalization.mkb
+          %td= hospitalization.hospitalization_type_name
+          %td= hospitalization.hospitalization_kind
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_hospitalization_path(@client,hospitalization)
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") ,client_hospitalization_path(@client,hospitalization), :method=>:delete, :confirm => 'Are you sure?'
+
+%br
+
+= link_to t(:new_record), new_client_hospitalization_path(@client)
