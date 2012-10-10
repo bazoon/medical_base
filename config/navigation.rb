@@ -53,6 +53,8 @@ SimpleNavigation::Configuration.run do |navigation|
     #
 
       primary.item :profs, "Посещения",Proc.new {client_prof_inspections_path(@client)} ,:if => Proc.new {not @client.nil?}
+      primary.item :profs9, "Дисп. наблюдение",Proc.new {client_disps_path(@client)},:if => Proc.new {not @client.nil?}
+      primary.item :profs8, "Заболевания",Proc.new {client_mkbs_path(@client)},:if => Proc.new {not @client.nil?}
       primary.item :profs1, "Лаб. анализы",Proc.new {client_lab_tests_path(@client)},:if => Proc.new {not @client.nil?}
       primary.item :prof2s, "Диагностика",Proc.new {client_diagnostic_tests_path(@client)} ,:if => Proc.new {not @client.nil?}
       primary.item :profs3, "Госпитализации",Proc.new {client_hospitalizations_path(@client)},:if => Proc.new {not @client.nil?}
@@ -61,8 +63,8 @@ SimpleNavigation::Configuration.run do |navigation|
       primary.item :profs6, "Леч. диагн. работа",Proc.new {client_med_diagnostic_tests_path(@client)},:if => Proc.new {not @client.nil?}
       primary.item :profs7, "Льготы",Proc.new {client_benefits_path(@client)},:if => Proc.new {not @client.nil?}
       primary.item :profs8, "МСЭ",Proc.new {client_mses_path(@client)},:if => Proc.new {not @client.nil?}
-      primary.item :profs8, "Заболевания",Proc.new {client_mkbs_path(@client)},:if => Proc.new {not @client.nil?}
-      primary.item :profs9, "Дисп. наблюдение",Proc.new {client_disps_path(@client)},:if => Proc.new {not @client.nil?}
+      
+      
 
     # You can also specify a condition-proc that needs to be fullfilled to display an item.
     # Conditions are part of the options. They are evaluated in the context of the views,
