@@ -1,7 +1,5 @@
-Then /^I should see "([^"]*)"$/ do |value|         #"
+Then /^I should see "([^"]*)"$/ do |value|         
  value.split(",").each {|v| page.should have_content(v) }
-
-
 end
 
 Then /^I should not see "([^"]*)"$/ do |fio|         #"

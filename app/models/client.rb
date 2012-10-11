@@ -75,6 +75,8 @@ class Client < ActiveRecord::Base
   scope :chernobil,joins(:benefits,:benefit_categories).merge(Ref::BenefitCategory.chernobil).merge(Benefit.primary)
 
 
+
+# http://localhost:3000/users
   #Участок пациента
   scope :sector,lambda {|sector_num|  where("num_card like ?",sector_num.to_s+"%") }
 
