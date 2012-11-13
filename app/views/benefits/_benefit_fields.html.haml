@@ -1,4 +1,4 @@
-=f.collection_select :benefit_category_id,Ref::BenefitCategory.all,:id,:code_with_short_name, :label => "Льготная категория"
+=f.collection_select :benefit_category_id,Ref::BenefitCategory.all,:id,:code_with_short_name, :label => "Льготная категория", :prompt => true
 =f.text_field :doc_name, :label => "Документ"
 =f.text_field :doc_seria, :label => "Серия"
 =f.text_field :doc_num, :label => "Номер"

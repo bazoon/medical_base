@@ -345,7 +345,7 @@ end
   def import_csv
     @clients=[]
     
-    log = Logger.new('/home/bazoon/projects/log.txt')
+
 
     CSV.foreach("/home/bazoon/projects/fio.csv")  do |row|
 
@@ -413,7 +413,55 @@ end
   end
 
 
+ def update_from_csv
+    @clients=[]
+    
 
+    CSV.foreach("/home/bazoon/projects/fio.csv")  do |row|
+
+       unless (row[1].nil? or row[2].nil? or row[3].nil?)
+
+         @client = Client.find_by_num_card(row[0])
+
+         @client=Client.new unless @client.nil?
+         
+         @client.num_card ||= row[0]  
+         @client.surname ||=r ow[1].mb_chars.downcase.capitalize unless row[1].nil?
+         @client.name ||= row[2].mb_chars.downcase.capitalize unless row[2].nil?
+         @client.father_name ||= row[3].downcase.mb_chars.capitalize unless row[3].nil?
+         @client.client_sex_id ||= woman_surname?(@client.surname) ? 2:1
+         
+         @client.pasp_seria ||= row[4]
+         @client.pasp_num ||= row[5]
+
+         @client.birth_date ||= convert_d(row[6])
+         
+         @client.ins_seria ||= row[7]
+         @client.ins_num ||= row[8]
+
+          
+         @client.ins_company_id ||= Ref::InsCompany.find_or_create_by_name(row[9].mb_chars.capitalize.to_s).id unless row[9].nil? or row[9].blank?
+         @client.ins_company_id ||= 9999 if @client.ins_company_id.nil?
+
+          
+         @client.reg_address ||= row[10]
+         @client.real_address ||= @client.reg_address
+         @client.snils ||= row[12]
+
+
+         @client.save! unless (@client.name.nil? or @client.birth_date.nil? or @client.client_sex_id.nil?)
+
+        
+
+
+       end
+
+        # log.debug "I: #{@i}"
+  end
+
+   # render :text => @client.num_card
+   # @clients
+  end
 
 
 end

@@ -17,6 +17,7 @@ group :assets do
   gem 'uglifier'
   gem 'therubyracer'
   gem 'sass-rails' 
+  gem 'jquery-ui-rails'
 end
 
 gem 'haml-rails'
@@ -32,12 +33,7 @@ gem "simple-navigation"
 gem 'apotomo'
 gem 'russian'
 gem 'dynamic_form'
-#gem 'acts_as_reportable'
-#gem 'ruport'
-#gem 'ruport-util'
-# Use unicorn as the web server
-# gem 'unicorn'
-#
+
 gem 'prawn'
 gem 'prawnto'
 #gem "prawn_rails"
@@ -62,16 +58,15 @@ end
 
 gem 'thin'
 
-
-group :test,:development do
+group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'guard-rspec'
-  gem 'rb-inotify'
-  gem 'libnotify'
-  gem 'rails_best_practices'
-  gem 'launchy'
+  # gem 'rb-inotify'
+  # gem 'libnotify'
+  # gem 'rails_best_practices'
+  gem 'launchy' 
   gem 'cucumber'
   gem 'cucumber-rails'
   gem 'database_cleaner'
@@ -81,11 +76,5 @@ group :test,:development do
   gem 'cucumber_scaffold'
 end
 
-group :test do
-  # Pretty printed test output
- # gem 'minitest'
-#  gem 'autotest-rails-pure'
- # gem 'autotest-standalone'
-end
 
 

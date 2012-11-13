@@ -15,6 +15,7 @@
       = render :partial => "client_field", :locals => {:field_name =>"Номер полиса", :field_value => client.ins_num}
       = render :partial => "client_field", :locals => {:field_name =>"ФИО", :field_value => client.fio}
       = render :partial => "client_field", :locals => {:field_name =>"Дата рождения", :field_value => client.local_date(:birth_date)}
+      = render :partial => "client_field", :locals => {:field_name =>"Паспорт", :field_value => client.passport}
       = render :partial => "client_field", :locals => {:field_name =>"Пол", :field_value => client.sex}
 
       = render :partial => "table_sep", :locals => {:header =>"Контактная информация"}
@@ -56,7 +57,7 @@
         =render :partial => "client_field", :locals => {:field_name =>"Профосмотр в текущем году", :field_value => I18n.t(:prof_zero),:emph => "important"}
     
 
-      = render :partial => "client_field", :locals => {:field_name =>"Паспорт", :field_value => client.passport}
+     
       = render :partial => "client_field", :locals => {:field_name =>"Лекарственная непереносимость", :field_value => client.drug_intolerance}
       = render :partial => "client_field", :locals => {:field_name =>"Группа крови", :field_value => client.blood}
       = render :partial => "client_field", :locals => {:field_name =>"Отказался от льгот ?", :field_value => boolean_to_yes_no(client.benefit_refuse)}
