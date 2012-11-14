@@ -49,6 +49,9 @@ class MedDiagnosticTestsController < ApplicationController
   def create
     @med_diagnostic_test = MedDiagnosticTest.new(params[:med_diagnostic_test])
     @med_diagnostic_test.client=@client
+    @med_diagnostic_test.aim=params[:med_diagnostic_test][:aim]
+
+    # render(:text => @med_diagnostic_test.aim)
 
 
     respond_to do |format|
@@ -66,6 +69,7 @@ class MedDiagnosticTestsController < ApplicationController
   # PUT /med_diagnostic_tests/1.json
   def update
     @med_diagnostic_test = MedDiagnosticTest.find(params[:id])
+    @med_diagnostic_test.aim=params[:med_diagnostic_test][:aim]
 
     respond_to do |format|
       if @med_diagnostic_test.update_attributes(params[:med_diagnostic_test])
@@ -83,6 +87,7 @@ class MedDiagnosticTestsController < ApplicationController
   def destroy
     @med_diagnostic_test = MedDiagnosticTest.find(params[:id])
     @med_diagnostic_test.destroy
+
 
     respond_to do |format|
       format.html { redirect_to client_med_diagnostic_tests_url }

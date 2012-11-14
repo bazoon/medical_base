@@ -2,7 +2,8 @@
 
   -p.prepare(@disps,"Диспансерное наблюдение",notice,@client)
 
-  =p.client_header
+  =p.client_header("Сюда вносятся данные о пациентах состоящих на диспансерном наблюдении.",new_client_disp_path(@client))
+ 
 
   =p.table_or_empty do
     %table{:class => "table table-bordered table-striped"}
@@ -28,4 +29,3 @@
 
 %br
 
-= link_to 'Добавить', new_client_disp_path(@client)

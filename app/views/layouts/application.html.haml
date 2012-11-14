@@ -60,22 +60,19 @@
               %input{:name => "search", :id => "client_search", :class => "search-query span3", :type => "text", :placeholder => "Фамилия"}
               %button{:class => "btn-primary", :type => "submit"} Искать
 
-              
     .container
-
 
       .content
 
         .page-header
-          
-
+          =render :partial => "current_client", :locals => {:current_client => current_client}
+        
         .row
           .span9
             = yield
           .span1 &nbsp;
           .span3
             .well.sidebar-nav
-              =render :partial => "current_client", :locals => {:current_client => current_client}
               =render "side"  
       %footer
         %p &copy; Company 2012

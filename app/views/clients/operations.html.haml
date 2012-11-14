@@ -1,4 +1,5 @@
-%h4= link_to "Все пациенты",clients_path
+= button_to "<= Все пациенты",  clients_path,:class => "btn btn-warning",:method => :get
+
 %br
 %h1= @client.fio 
 %br

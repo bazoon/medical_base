@@ -8,8 +8,8 @@ def prepare(items,title,notice,client,paginate = true)
  @paginate = paginate
 end
 
-def client_header
- content = client_back_path + index_header + flash_message
+def client_header(info_message,link)
+ content =  index_header + flash_message + info(info_message) + new_record(link)
  content += paginate_items if @paginate
  content
 end
@@ -19,10 +19,20 @@ def table_or_empty(&block)
    content=""
    yield
  else
-   content = content_tag(:span,I18n.t(:no_records),:class => "label success") 
+   content = content_tag(:br,content_tag(:span,I18n.t(:no_records),:class => "alert info"))
  end
  content
 end  
+
+def info(message)
+	content_tag(:div,message,:class => "alert alert-info")	
+end
+
+ 
+def new_record(link)
+	button_to t(:new_record), link,:class => "btn btn-warning",:method => :get
+end
+
 
 private
 

@@ -57,7 +57,11 @@ class AjaxController < ApplicationController
 
 
   def doctor_types
-    @doctor_types = Ref::DoctorType.where("lower(name) like ?","%#{params[:q]}%")
+ 
+ 
+    
+    @doctor_types = Ref::DoctorType.where("(name like ?)  or (name like ?) or (name like ?) ","%#{params[:q]}%","#{params[:q]}%","#{params[:q].mb_chars.capitalize}%")
+
 
     respond_to do |format|
       format.json {render :json => @doctor_types.map(&:attributes) }

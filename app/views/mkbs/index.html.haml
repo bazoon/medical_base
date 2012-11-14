@@ -1,7 +1,8 @@
 - present "ClientOperations" do |p|
-  -p.prepare(@mkbs,"Заболевания (по МКБ-10)",notice,@client)
+  -p.prepare(@mkbs,"Заболевания",notice,@client)
 
-  =p.client_header
+  
+  =p.client_header("В этот раздел заносятся данные о заболеваниях, подлежащих диспансерному учету.",new_client_mkb_path(@client))
 
   =p.table_or_empty do
     %table{:class => "table table-bordered table-striped"}
@@ -24,8 +25,7 @@
 
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_mkb_path(@client,mkb)
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , client_mkb_path(@client,mkb), :confirm => 'Are you sure?', :method => :delete
-%br
-= link_to t(:new_record), new_client_mkb_path 
+
 
 
 

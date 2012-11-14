@@ -4,7 +4,7 @@ class Client < ActiveRecord::Base
 
   DETACH_REASON_NONE = 0
   DETACH_REASON_OTHER_CLINIC = 1
-  DETACH_REASON_DIED_AT_HOME =2
+  DETACH_REASON_DIED_AT_HOME = 2
   DETACH_REASON_DIED_AT_CLINIC = 3
 
   MALE = 1
@@ -291,10 +291,10 @@ end
       when 3
         where('surname LIKE ? and name LIKE ? and father_name LIKE ?',"#{s[0]}","#{s[1]}","#{s[2]}")
       else
-        scoped
+        scoped.order(:surname)
     end
   else
-   scoped
+   scoped.order(:surname)
   end
 
  end
@@ -414,7 +414,7 @@ end
 
 
  def update_from_csv
-    @clients=[]
+
     
 
     CSV.foreach("/home/bazoon/projects/fio.csv")  do |row|

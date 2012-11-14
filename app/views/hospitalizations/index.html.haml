@@ -2,7 +2,8 @@
 
   -p.prepare(@hospitalizations,"Госпитализации",notice,@client)
 
-  =p.client_header
+  =p.client_header("Сюда вносится информация о запланированных госпитализациях.",new_client_hospitalization_path(@client))
+ 
   =p.table_or_empty do
     %table{:class => "table table-bordered table-striped"}
       %tr
@@ -24,6 +25,3 @@
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_hospitalization_path(@client,hospitalization)
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") ,client_hospitalization_path(@client,hospitalization), :method=>:delete, :confirm => 'Are you sure?'
 
-%br
-
-= link_to t(:new_record), new_client_hospitalization_path(@client)

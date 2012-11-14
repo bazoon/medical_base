@@ -1,7 +1,7 @@
 - present "ClientOperations" do |p|
   -p.prepare(@lab_tests,"Лабораторные анализы",notice,@client)
 
-  =p.client_header
+  =p.client_header("Сюда вносится информация о сданных анализах.",new_client_lab_test_path(@client))
 
   =p.table_or_empty do
     %table{:class => "table table-bordered table-striped"}
@@ -21,5 +21,3 @@
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_lab_test_path(@client,lab_test)
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") ,client_lab_test_path(@client,lab_test), :confirm => 'Are you sure?', :method => :delete
 
-%br
-= link_to t(:new_record), new_client_lab_test_path(@client),:accesskey => "n"

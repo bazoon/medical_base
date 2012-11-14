@@ -1,0 +1,43 @@
+ 
+
+
+ =form_tag client_prof_inspections_path(@client), :id => "prof_inspections_search" , :method => 'get',:class => "navbar-search pull-left" do 
+      =hidden_field_tag :direction, params[:direction] 
+      =hidden_field_tag :sort, params[:sort] 
+      =text_field_tag :search_prof_inspection, params[:search],:class => "search-query span3" 
+      =submit_tag "Поиск", :name => nil ,:class => "btn-primary"
+
+
+      $('#prof_inspections').html('<%= escape_javascript(render("prof_inspections")) %>');
+
+
+
+- present "ClientOperations" do |p|
+  -p.prepare(@prof_inspections,"Данные о посещениях (профосмотрах)",notice,@client,false)
+
+  =p.client_header
+
+  
+
+  =p.table_or_empty do
+    %span{:class => "help-block"}
+      В поле поиска можно указать дату (полностью или только год, фамилию врача, заболевание)
+    =form_tag client_prof_inspections_path(@client), :id => "prof_inspections_search" , :method => 'get' do 
+      =hidden_field_tag :direction, params[:direction] 
+      =hidden_field_tag :sort, params[:sort] 
+      =text_field_tag :search_prof_inspection, params[:search] 
+      =submit_tag "Поиск", :name => nil 
+   
+
+  %br
+  %br  
+
+    
+    
+
+    =render "prof_inspections"
+
+
+%br
+%br
+= button_to t(:new_record), new_client_prof_inspection_path,:class => "btn btn-warning",:method => :get
