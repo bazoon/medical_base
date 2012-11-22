@@ -1,7 +1,8 @@
 - present "ClientOperations" do |p|
   -p.prepare(@mses,"Медико-социальная экспертиза",notice,@client)
 
-  =p.client_header
+  =p.client_header("Сюда вносится информация о направлении на медико-социальную экспертизу",new_client_mse_path(@client))
+
 
   =p.table_or_empty do
     %table{:class => "table table-bordered table-striped"}
@@ -36,6 +37,3 @@
         %tr
           %td{:style =>"border-bottom: black solid 2px "} До
           %td{:style =>"border-bottom: black solid 2px "}= mse.again
-
-%br
-=link_to t(:new_record), new_client_mse_path(@client)

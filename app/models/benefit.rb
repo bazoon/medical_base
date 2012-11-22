@@ -66,7 +66,11 @@ end
 #end
 
 def document
- res = "#{I18n.t(:document)} #{doc_name} #{I18n.t(:seria)} #{doc_seria} #{I18n.t(:num)} #{doc_num} #{I18n.t(:given_by)} #{doc_given_by}" 
+ 
+ res = "#{I18n.t(:document)} #{doc_name}" unless doc_name
+ res += "#{I18n.t(:seria)} #{doc_seria}" unless doc_seria
+ res += "#{I18n.t(:num)} #{doc_num}" unless doc_num
+ res += "#{I18n.t(:given_by)} #{doc_given_by}" unless doc_given_by
  res += " #{I18n.l(doc_date)}" unless doc_date.nil?
  res
 end  

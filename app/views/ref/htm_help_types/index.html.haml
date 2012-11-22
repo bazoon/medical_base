@@ -2,6 +2,7 @@
   -p.prepare(@ref_htm_help_types,"Виды высокотехнологичной помощи",notice)
 
   =p.header
+  = button_to t(:new_record), new_ref_htm_help_type_path,:class => "btn btn-warning",:method => :get
 
   =p.table_or_empty do
 
@@ -19,4 +20,3 @@
 
 %br
 
-= link_to t(:new_record),new_ref_htm_help_type_path

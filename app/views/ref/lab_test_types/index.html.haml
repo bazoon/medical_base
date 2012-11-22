@@ -2,6 +2,7 @@
   -p.prepare(@ref_lab_test_types,"Виды анализов",notice,false)
 
   =p.header
+  = button_to t(:new_record), new_ref_lab_test_type_path,:class => "btn btn-warning",:method => :get
 
 
   =form_tag ref_lab_test_types_path, :id => "lab_test_type_search" , :method => 'get' do 
@@ -21,4 +22,3 @@
     %div#lab_test_types
       =render "lab_test_types"
 
-= link_to I18n.t(:new_record),new_ref_lab_test_type_path

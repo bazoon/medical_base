@@ -10,7 +10,8 @@ def get_observed(year,num)
  profs = apply_sector_num(profs)
 
  uniq_client_count = profs.map(&:client_id).uniq.count
- average_visits_count = 0
+
+ visit_count = profs.count
  average_visits_count = visit_count / uniq_client_count unless uniq_client_count == 0
 
  on_observation_count = case num

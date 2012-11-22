@@ -5,7 +5,7 @@
       Общие данные
     =f.text_field :num_card, :label => "Номер карты", :field_name => "num_card"
     =f.text_field :snils,:label => "СНИЛС"
-    =f.collection_select :ins_company_id, Ref::InsCompany.all,:id,:name, :label => "Страховая компания"
+    =f.collection_select :ins_company_id, Ref::InsCompany.all,:id,:name, :label => "Страховая компания",:prompt => true
     =f.text_field :ins_seria,:label => "Серия полиса" 
     =f.text_field :ins_num, :label => "Номер полиса"
     =f.text_field :surname, :label => "Фамилия"
@@ -45,7 +45,7 @@
     =f.check_box :disabled,:label => "Маломобильный ?"
     =f.check_box :benefit_refuse, :label => "Отказался от льгот ?"
     =f.text_field :drug_intolerance,:label => "Лекарственная непереносимость"
-    =f.select :blood_group, [["I+",1],["I-",2],["II+",3],["II-",4],["III+",5],["III-",6],["VI+",7],["VI-",8]],:label => "Группа крови"
+    =f.select :blood_group, [["I+",1],["I-",2],["II+",3],["II-",4],["III+",5],["III-",6],["VI+",7],["VI-",8]],:label => "Группа крови",:prompt => true
     =f.text_field :special_note,:label => "Особые заметки"
     =f.date_select :attach_date,:label => "Дата прикрепления"
     =f.text_field :notes,:label => "Примечания"

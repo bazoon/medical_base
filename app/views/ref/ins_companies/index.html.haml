@@ -2,6 +2,7 @@
   -p.prepare(@ref_ins_companies,"Страховые компании",notice)
 
   =p.header
+  = button_to t(:new_record), new_ref_ins_company_path,:class => "btn btn-warning",:method => :get
 
   =p.table_or_empty do
 
@@ -17,5 +18,3 @@
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"), edit_ref_ins_company_path(ref_ins_company),:class => "edit_link"
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") ,ref_ins_company, :confirm => 'Are you sure?', :method => :delete, :class => "delete_link" if ref_ins_company.can_be_deleted
 %br
-
-= link_to I18n.t(:new_record), new_ref_ins_company_path
