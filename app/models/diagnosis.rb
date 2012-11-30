@@ -43,8 +43,14 @@ class Diagnosis < ActiveRecord::Base
  end
 
  def mkb=(name)
-  code = name[0,name.index(":")]
-  self.mkb_type = Ref::MkbType.find_by_code(code)
+  colon_index = name.index(":")
+  code = name[0,colon_index] unless colon_index.nil?
+  
+  type = Ref::MkbType.find_by_code(code) unless code.nil?
+  
+  type ||= Ref::MkbType.find_by_code(name)
+
+  self.mkb_type = type unless type.nil?
  end
 
 

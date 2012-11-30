@@ -3,7 +3,7 @@
 
   %div{:id => tab_id}
     = link_to "[Редактировать]", edit_client_path(client)
-    = link_to "[Лист оказанных услуг]", edit_rep_service_path(client), :target => "_blank"
+    = link_to "[Лист оказанных услуг]", rep_service_index_path(:format => 'pdf'), :target => "_blank",:method => :post
 
 
     %table{:width => "100%",:style => "table-layout: fixed", :id => "client_table"}

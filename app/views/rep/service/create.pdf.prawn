@@ -17,7 +17,7 @@ pdf.font "Verdana", :size => 14
         pdf.text "Наименование организации здравоохранения: <b> ГЛПУ ТО Госпиталь ветеранов войн </b>", :inline_format => true, :leading => 5
         pdf.text "Отчетный период: с ____________ по ________________", :leading => 5
         pdf.text  "ФИО пациента: <b> #{@client.fio} </b>", :inline_format => true, :leading => 5
-        pdf.text "Дата рождения: <b> #{ldate @client.birth_date} </b>  Стоимость лечения (тариф): <b> #{@summa} </b> ", :inline_format => true, :leading => 5  
+        pdf.text "Дата рождения: <b> #{ldate @client.birth_date} </b>  Стоимость лечения (тариф): <b> 248.09 </b> ", :inline_format => true, :leading => 5  
         pdf.text "Наименование страховой медицинской организации: <b> #{@client.ins_company.name} </b>", :inline_format => true, :leading => 5
         pdf.text "Страховой полис: серия <b> #{@client.ins_seria} </b> № <b> #{@client.ins_num} </b>", :inline_format => true, :leading => 5
         pdf.text "Оказанные медицинские услуги:", :leading => 5

@@ -4,7 +4,7 @@
 -unless flash.empty?
   %p#notice= notice
 
-
+= button_to t(:new_record), new_user_path,:class => "btn btn-warning",:method => :get
 %table{:class => "table table-bordered table-striped"}
   %thead
     %tr
@@ -27,9 +27,3 @@
         %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil") , edit_user_path(user), :class => "edit_link"
         %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus")  , user, :confirm => 'Are you sure?', :method => :delete,:class => "delete_link"
 
-
-
-
-%br
-
-= link_to I18n.t(:new_record), new_user_path

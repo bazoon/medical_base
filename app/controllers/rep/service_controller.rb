@@ -7,10 +7,10 @@ def edit
 end
 
 def create
- @summa = params[:summa]
- @client = Client.find(params[:client_id]) 
+ # @summa = params[:summa]
+ # @client = Client.find(params[:client_id]) 
 
-
+ @client = current_client
 
  respond_to do |format|
    format.pdf

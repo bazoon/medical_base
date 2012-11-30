@@ -43,7 +43,7 @@ Given /^no "([^"]*)"$/ do |model|
 end
 
 Given /^i click add_new_link/ do 
- click_link I18n.t(:new_record)
+ click_button I18n.t(:new_record)
 end
 
 When /^i enter "([^"]*)" in "([^"]*)"$/ do |values, fields|

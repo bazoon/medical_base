@@ -83,6 +83,9 @@ class ClientsController < ApplicationController
 
 
     respond_to do |format|
+
+      # redirect_to new_client_path, notice: t(:patient_saved) #unless @client.valid?
+
       if @client.save
         format.html { redirect_to operations_client_path(@client), notice: t(:patient_saved) }
         format.json { render json: @client, status: :created, location: @client }

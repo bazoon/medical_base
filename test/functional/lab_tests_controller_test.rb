@@ -14,7 +14,7 @@ class LabTestsControllerTest < ActionController::TestCase
   end
 
   test "should get new" do
-    get :new,:client_id => @client
+    get :new,:client_id => @client,:lab_test_type => FactoryGirl.create(:lab_test_type)
     assert_response :success
   end
 

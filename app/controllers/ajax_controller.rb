@@ -24,7 +24,7 @@ class AjaxController < ApplicationController
     
     end
 
-    if mkb_types.count == 0
+    if mkb_types.empty?
       mkb_types = Ref::MkbType.all
     end
 

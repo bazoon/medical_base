@@ -2,7 +2,7 @@ class LabTest < ActiveRecord::Base
   belongs_to :client, :counter_cache => true
   belongs_to :lab_test_type, :class_name => 'Ref::LabTestType'
 
-  validates :result,:test_date,:lab_test_type_name,:presence => true
+  validates :result,:test_date ,:presence => true
 
  # validates :lab_test_type_present
 

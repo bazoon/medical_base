@@ -6,7 +6,7 @@ gem 'rails', '3.2.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'metrical'
+# gem 'metrical'
 # Gems used only for assets and not required
 # in production environments by default.
 #
@@ -37,6 +37,7 @@ gem 'prawn'
 gem 'prawnto'
 #gem "prawn_rails"
 gem 'pry'
+# gem 'pry-debugger'
 
 gem 'simple_form'
 #gem 'client_side_validations'
@@ -51,8 +52,9 @@ gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 gem 'simplecov', :require => false, :group => :test
 
 group :development do
-  gem "railroady"
-  gem "rails-erd"
+  # gem "railroady"
+  # gem "rails-erd"
+  gem 'factory_girl_rails'
 end
 
 gem 'thin'

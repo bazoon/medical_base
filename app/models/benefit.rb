@@ -66,12 +66,12 @@ end
 #end
 
 def document
- 
- res = "#{I18n.t(:document)} #{doc_name}" unless doc_name
- res += "#{I18n.t(:seria)} #{doc_seria}" unless doc_seria
- res += "#{I18n.t(:num)} #{doc_num}" unless doc_num
- res += "#{I18n.t(:given_by)} #{doc_given_by}" unless doc_given_by
- res += " #{I18n.l(doc_date)}" unless doc_date.nil?
+ res = ""
+ res = "#{I18n.t(:document)} #{doc_name}" if doc_name
+ res += "#{I18n.t(:seria)} #{doc_seria}" if doc_seria
+ res += "#{I18n.t(:num)} #{doc_num}" if doc_num
+ res += "#{I18n.t(:given_by)} #{doc_given_by}" if doc_given_by
+ res += "#{I18n.l(doc_date)}" if doc_date
  res
 end  
 
@@ -87,6 +87,10 @@ def short_name
   benefit_category.short_name unless benefit_category.nil?
 end
 
+
+def code
+  benefit_category.code unless benefit_category.nil?
+end  
 
 end
 

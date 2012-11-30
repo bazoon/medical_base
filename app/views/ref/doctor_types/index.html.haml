@@ -2,7 +2,7 @@
   -p.prepare(@ref_doctor_types,"Специальности",notice)
 
   =p.header
-
+  = button_to t(:new_record), new_ref_doctor_type_path,:class => "btn btn-warning",:method => :get
   =p.table_or_empty do
 
 
@@ -17,6 +17,3 @@
           %td= ref_doctor_type.name
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"), edit_ref_doctor_type_path(ref_doctor_type)
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , ref_doctor_type, :confirm => 'Are you sure?', :method => :delete if ref_doctor_type.can_be_deleted
-%br
-
-= link_to t(:new_record),new_ref_doctor_type_path

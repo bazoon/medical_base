@@ -319,6 +319,9 @@ end
 
 
 
+
+# Temp  functions for import only !
+
   def convert_d(b)
    res=b[0,2]+'.'+b[2,2]+'.'+b[4,4] unless (b.nil? or b.length < 8)
    res=' ' if res.nil?
@@ -336,11 +339,6 @@ end
   def woman_surname?(surname)
     not (['я','а','ь'].index(surname[surname.length-1])).nil?
   end
-
-  def method_name
-    
-  end
-
 
   def import_csv
     @clients=[]
@@ -415,18 +413,17 @@ end
 
  def update_from_csv
 
-    
-
-    CSV.foreach("/home/bazoon/projects/fio.csv")  do |row|
+    log= Logger.new('/Users/vith/Desktop/projects/logfile.log')
+    CSV.foreach("/Users/vith/Desktop/projects/cl.csv")  do |row|
 
        unless (row[1].nil? or row[2].nil? or row[3].nil?)
 
          @client = Client.find_by_num_card(row[0])
 
-         @client=Client.new unless @client.nil?
-         
+         @client = Client.new if @client.nil?
+        
          @client.num_card ||= row[0]  
-         @client.surname ||=r ow[1].mb_chars.downcase.capitalize unless row[1].nil?
+         @client.surname ||=row[1].mb_chars.downcase.capitalize unless row[1].nil?
          @client.name ||= row[2].mb_chars.downcase.capitalize unless row[2].nil?
          @client.father_name ||= row[3].downcase.mb_chars.capitalize unless row[3].nil?
          @client.client_sex_id ||= woman_surname?(@client.surname) ? 2:1
@@ -449,12 +446,27 @@ end
          @client.snils ||= row[12]
 
 
-         @client.save! unless (@client.name.nil? or @client.birth_date.nil? or @client.client_sex_id.nil?)
-
-        
 
 
-       end
+
+          unless row[11].nil?
+              benefits = row[11].split
+              benefits.each do |b|
+                bc = Ref::BenefitCategory.find_by_code(b.to_i)
+                unless bc.nil?
+
+                  if @client.benefits.index {|benefit| benefit.code == bc.code}.nil?
+                    @client.benefits.new(:benefit_category_id => bc.id, :doc_name => 'не указан')
+                  end  
+         
+                end  
+              end 
+
+          end  
+
+         @client.save! unless (@client.name.nil? or @client.surname.nil? or @client.birth_date.nil? or @client.client_sex_id.nil?)
+
+        end
 
         # log.debug "I: #{@i}"
   end

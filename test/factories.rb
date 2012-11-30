@@ -1,156 +1,212 @@
-Factory.define(:benefit_category,:class => Ref::BenefitCategory) do |bc|
-  bc.code  10
+FactoryGirl.define do 
+  factory :benefit_category,:class => Ref::BenefitCategory do
+    code  10
+  end  
 end
 
-Factory.define(:benefit,:class => Benefit) do |benefit|
-  benefit.association :benefit_category,:factory => :benefit_category
-  benefit.doc_name "docs"
+FactoryGirl.define do 
+  factory :benefit,:class => Benefit do
+    association :benefit_category,:factory => :benefit_category
+    doc_name "docs"
+  end  
 end
 
-Factory.define(:client,:class => Client) do |client|
-  client.name "Abra123"
-  client.surname "PCodrbr"
-  client.association :ins_company, :factory => :ins_company
-  client.birth_date '01.01.2004'
-  client.client_sex_id  1
+FactoryGirl.define do 
+  factory :client,:class => Client do
+    num_card "1234"
+    name "Abra123"
+    surname "PCodrbr"
+    association :ins_company, :factory => :ins_company
+    birth_date '01.01.2004'
+    client_sex_id  1
+  end  
 end
 
-Factory.define(:hospitalization) do |hosp|
- hosp.hospitalization_type_id  1
+FactoryGirl.define do 
+  factory :hospitalization do 
+    hospitalization_type_id  1
+  end  
 end
 
-Factory.define(:diagnostic_test) do |obj|
- obj.diagnostic_test_type_id 1
- obj.test_date '01.01.2011'
- obj.result "ok"
- obj.total DiagnosticTest::NORM
-end
-
-
-Factory.define(:disp) do |obj|
- obj.actual_date '01.01.2011'
-end
-
-Factory.define(:htm_help_note) do |obj|
- obj.actual_date '01.01.2011'
- obj.association :htm_help_type,:factory => :htm_help_type
-end
-
-
-Factory.define(:lab_test) do |obj|
- obj.lab_test_type_id 1
- obj.test_date '01.01.2011'
- obj.result "ok"
- obj.client_id 1
-end
-
-Factory.define(:med_diagnostic_test) do |obj|
- obj.association :hospitalization_type, :factory => :hospitalization_type
- obj.test_date '01.01.2011'
- obj.result "ok"
- obj.client_id 1
-end
-
-Factory.define(:doctor_type, :class => "Ref::DoctorType") do |obj|
- obj.name "doctor"
-
-end
-
-Factory.define(:user) do |obj|
- obj.association :doctor_type, :factory => :doctor_type
- obj.name "doctor"
- obj.surname "ivanov"
+FactoryGirl.define do
+  factory :diagnostic_test do  
+    diagnostic_test_type_id 1
+    test_date '01.01.2011'
+    result "ok"
+    total DiagnosticTest::NORM
+  end  
 end
 
 
-
-Factory.define(:mkb_type, :class => "Ref::MkbType") do |obj|
- obj.sequence(:code) {|n| "A#{n+1}"}
- obj.name "mkbtype"
- obj.association :doctor_type,:factory => :doctor_type
- #obj.code_i 0
+FactoryGirl.define do 
+  factory :disp do
+    actual_date '01.01.2011'
+  end  
 end
 
-Factory.define(:mkb) do |obj|
- obj.association :mkb_type, :factory => :mkb_type
- obj.actual_date '01.01.2011'
- obj.association :client, :factory => :client
- obj.association :user,:factory => :user
+FactoryGirl.define do
+  factory :htm_help_note do  
+    actual_date '01.01.2011'
+    association :htm_help_type,:factory => :htm_help_type
+  end  
 end
 
-Factory.define(:mse) do |obj|
- obj.association :mkb_type, :factory => :mkb_type
- obj.conclusion_date '01.01.2011'
- obj.send_date '01.01.2011'
- obj.association :client, :factory => :client
- obj.association :user,:factory => :user
+
+FactoryGirl.define do 
+  factory :lab_test do  
+    lab_test_type_id 1
+    test_date '01.01.2011'
+    result "ok"
+    client_id 1
+  end  
 end
 
-Factory.define(:prof_inspection) do |obj|
- obj.actual_date "01.01.2011"
- obj.inspection_type 1
-
- obj.association :client, :factory => :client
- obj.association :user,:factory => :user
+FactoryGirl.define do
+  factory :med_diagnostic_test do  
+    association :hospitalization_type, :factory => :hospitalization_type
+    test_date '01.01.2011'
+    result "ok"
+    client_id 1
+  end  
 end
 
-Factory.define(:sanatorium_note) do |obj|
- obj.neediness_ref_date '01.01.2011'
- obj.sanatorium_card_fill_date '01.01.2011'
- obj.period_start '01.01.2011'
- obj.period_end '01.01.2011'
- obj.association :client, :factory => :client
+FactoryGirl.define do
+  factory :doctor_type,:class => "Ref::DoctorType" do 
+    name "doctor"
+  end
 end
 
-Factory.define(:diagnosis) do |obj|
- obj.association :mkb_type, :factory => :mkb_type
- obj.association :prof_inspection, :factory => :prof_inspection
+FactoryGirl.define do
+  factory :user do  
+    association :doctor_type, :factory => :doctor_type
+    name "doctor"
+    surname "ivanov"
+  end  
+end
+
+
+
+FactoryGirl.define do
+  factory :mkb_type,:class => "Ref::MkbType" do
+    sequence(:code) {|n| "A#{n+1}"}
+    name "mkbtype"
+    association :doctor_type,:factory => :doctor_type
+  end  
+end
+
+FactoryGirl.define do
+  factory :mkb do  
+    association :mkb_type, :factory => :mkb_type
+    actual_date '01.01.2011'
+    association :client, :factory => :client
+    association :user,:factory => :user
+  end  
+end
+
+FactoryGirl.define do
+  factory :mse do  
+    association :mkb_type, :factory => :mkb_type
+    conclusion_date '01.01.2011'
+    send_date '01.01.2011'
+    association :client, :factory => :client
+    association :user,:factory => :user
+  end
+end
+
+FactoryGirl.define do
+  factory :prof_inspection do  
+    actual_date "01.01.2011"
+    inspection_type 1
+    
+    association :client, :factory => :client
+    association :user,:factory => :user
+  end  
+end
+
+FactoryGirl.define do
+  factory :sanatorium_note do
+    neediness_ref_date '01.01.2011'
+    sanatorium_card_fill_date '01.01.2011'
+    period_start '01.01.2011'
+    period_end '01.01.2011'
+    association :client, :factory => :client
+  end  
+end
+
+FactoryGirl.define do
+  factory :diagnosis do  
+    association :mkb_type, :factory => :mkb_type
+    association :prof_inspection, :factory => :prof_inspection
+  end 
 end
 
 
 #Ref Factories
 
-Factory.define(:death_reason,:class => Ref::DeathReason) do |obj|
-  obj.name "d"
+FactoryGirl.define do
+  factory :death_reason,:class => Ref::DeathReason do
+    name "d"
+  end  
 end
 
-Factory.define(:desease_type,:class => Ref::DeseaseType) do |obj|
-  obj.name "d"
+
+FactoryGirl.define do
+  factory :desease_type,:class => Ref::DeseaseType do
+    name "d"
+  end
 end
 
-Factory.define(:diagnostic_test_type,:class => Ref::DiagnosticTestType) do |obj|
-  obj.name "d"
+FactoryGirl.define do
+  factory :diagnostic_test_type,:class => Ref::DiagnosticTestType do
+    name "d"
+  end  
 end
 
-Factory.define(:hospitalization_type,:class => Ref::HospitalizationType) do |obj|
-  obj.name "d"
+FactoryGirl.define do
+  factory :hospitalization_type,:class => Ref::HospitalizationType do
+    name "d"
+  end  
 end
 
-Factory.define(:htm_help_type,:class => Ref::HtmHelpType) do |obj|
-  obj.name "d"
+FactoryGirl.define do
+  factory :htm_help_type,:class => Ref::HtmHelpType do
+    name "d"
+  end
 end
 
-Factory.define(:ins_company,:class => Ref::InsCompany) do |obj|
-  obj.name "Ugoria mine gmbx"
+FactoryGirl.define do
+  factory :ins_company,:class => Ref::InsCompany do
+    name "Ugoria mine gmbx"
+  end
 end
 
-Factory.define(:lab_test_type,:class => Ref::LabTestType) do |obj|
-  obj.name "d"
+FactoryGirl.define do
+  factory :lab_test_type,:class => Ref::LabTestType do
+    name "d"
+  end  
 end
 
-Factory.define(:lab_test_group,:class => Ref::LabTestGroup) do |obj|
-  obj.name "d"
+FactoryGirl.define do
+  factory :lab_test_group,:class => Ref::LabTestGroup do
+    name "d"
+  end  
 end
 
-Factory.define(:lab_test_type_group,:class => Ref::LabTestTypeGroup) do |obj|
-  obj.association :lab_test_type, :factory => :lab_test_type
-  obj.association :lab_test_group, :factory => :lab_test_group
+FactoryGirl.define do
+  factory :lab_test_type_group,:class => Ref::LabTestTypeGroup do
+    association :lab_test_type, :factory => :lab_test_type
+    association :lab_test_group, :factory => :lab_test_group
+  end  
 end
 
-Factory.define(:med_diagnostic_test_type,:class => Ref::MedDiagnosticTestType) do |obj|
-  obj.name "d"
+FactoryGirl.define do
+  factory :med_diagnostic_test_type,:class => Ref::MedDiagnosticTestType do
+    name "d"
+  end  
 end
 
-Factory.define(:sanatorium,:class => Ref::Sanatorium) do |obj|
-  obj.name "d"
+FactoryGirl.define do
+  factory :sanatorium,:class => Ref::Sanatorium do
+    name "d"
+  end  
 end
