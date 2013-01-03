@@ -20,6 +20,9 @@ $(document).ready(function(){
 
 
 
+ $( "#inspections" ).accordion();
+ 
+
 });  
 
 function remove_fields(link) {

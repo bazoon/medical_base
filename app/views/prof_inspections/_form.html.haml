@@ -3,7 +3,9 @@
   =f.radio_button :inspection_type,ProfInspection::USIAL,:label => "Прием"
   =f.radio_button :inspection_type,ProfInspection::PROF,:label => "Профосмотр" 
   =f.collection_select :user_id, User.order(:surname),:id,:short_fio_with_doctor_type, :label => "Врач"
-  =f.text_area :conclusion,:label => "Примечания",:rows => 7
+  =f.text_area :conclusion,:label => "Примечания",:rows => 3
+
+  = render :partial => "inspections",:locals => {:f => f}
 
   =f.fields_for :diagnoses do |b|
     =render :partial => "diagnosis_fields", :locals => {:b => b}

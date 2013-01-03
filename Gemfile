@@ -19,6 +19,8 @@ group :assets do
   gem 'jquery-ui-rails'
 end
 
+gem 'newrelic_rpm'
+
 gem 'haml-rails'
 
 gem 'jquery-rails'
