@@ -4,6 +4,12 @@ class Mkb < ActiveRecord::Base
   belongs_to :user
   validates :client_id,:mkb_type_id,:actual_date,:user_id,:presence => true
 
+  NO_DISP_GROUP = 0
+  DISP_GROUP_1 = 1
+  DISP_GROUP_2 = 2
+  DISP_GROUP_3 = 3
+  DISP_GROUP_4 = 4
+  DISP_GROUP_5 = 5
 
   scope :before, lambda {|d| where("actual_date < ?",d)}
   scope :between, lambda {|s,e| where("actual_date between ? and ?",s,e)}
@@ -14,7 +20,6 @@ class Mkb < ActiveRecord::Base
   scope :client_sector,lambda {|n| joins(:client).merge(Client.sector(n))}
   scope :client_disables,lambda {joins(:client).merge(Client.disables)}
   scope :disease, lambda {|d| joins(:mkb_type).merge(Ref::MkbType.disease(d))}
-
 
   scope :disp_group, lambda {|d| where("disp_group = ?",d)}
 

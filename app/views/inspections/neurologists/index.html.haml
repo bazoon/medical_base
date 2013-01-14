@@ -1,0 +1,17 @@
+%h1 Listing inspections_neurologists
+
+%table
+  %tr
+    %th
+    %th
+    %th
+
+  - @inspections_neurologists.each do |inspections_neurologist|
+    %tr
+      %td= link_to 'Show', inspections_neurologist
+      %td= link_to 'Edit', edit_inspections_neurologist_path(inspections_neurologist)
+      %td= link_to 'Destroy', inspections_neurologist, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Neurologist', new_inspections_neurologist_path

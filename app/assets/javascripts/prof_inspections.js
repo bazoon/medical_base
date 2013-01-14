@@ -22,6 +22,11 @@ $(document).ready(function(){
 
  $( "#inspections" ).accordion();
  
+  $(function() {
+    $("#prof_inspection_tabs").tabs();
+  });
+
+
 
 });  
 
@@ -36,4 +41,5 @@ function add_fields(link, association, content) {
         $(link).parent().before(content.replace(regexp, new_id));
         $('.mkb').autocomplete({ source: "/ajax/mkb_types" });
 }
+
 

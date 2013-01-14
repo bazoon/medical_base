@@ -5,7 +5,9 @@ class ProfInspection < ActiveRecord::Base
 
   belongs_to :client, :counter_cache => true
   belongs_to :user
+
   has_many :diagnoses,:dependent => :delete_all,:order => "id"
+  has_many :neurologists, :dependent => :delete_all,:order => "id",:class_name => 'Inspections::Neurologist'
 
   has_many :mkb_types,:through => :diagnoses  
   has_one :doctor_type,:through => :user  
@@ -13,6 +15,8 @@ class ProfInspection < ActiveRecord::Base
   validates :actual_date,:user_id,:client_id, :presence =>true
 
   accepts_nested_attributes_for :diagnoses,:allow_destroy => true
+  accepts_nested_attributes_for :neurologists,:allow_destroy => true
+
 
   scope :disease_like,lambda {|n| joins(:diagnoses,:mkb_types).merge(Ref::MkbType.disease_like(n)) }
   scope :user_surname_like,lambda {|n| joins(:user).merge(User.surname_like(n)) }

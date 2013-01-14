@@ -1,6 +1,8 @@
 Medical::Application.routes.draw do
 
 
+
+
   namespace :ref do resources :death_reasons end
 
   namespace :ref do resources :sanatoria end
@@ -60,6 +62,13 @@ Medical::Application.routes.draw do
       resources :prof_inspections do
 
         resources :diagnoses
+       
+        namespace :inspections do 
+       
+          resources :neurologists 
+       
+        end
+
       end 
 
       resources :htm_help_notes

@@ -10,6 +10,10 @@ class User < ActiveRecord::Base
 
   scope :surname_like,lambda {|name| where("users.surname like")}
 
+def self.sorted
+  
+
+end  
 
 def self.surname_like(n)
  like= "%".concat(n.to_s.concat("%"))

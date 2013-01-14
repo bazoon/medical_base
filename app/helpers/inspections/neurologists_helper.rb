@@ -1,0 +1,2 @@
+module Inspections::NeurologistsHelper
+end

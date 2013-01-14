@@ -1,5 +1,8 @@
-%h1 Новая запись
+#prof_inspection_tabs
+	%ul
+		= render :partial => "tab_caption", :locals => {:tab_id =>"#tab-0", :tab_caption => "Посещения"}
+	= render 'form'
 
-= render 'form'
 
 = link_to 'Назад', client_prof_inspections_path(@client)
+	

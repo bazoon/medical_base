@@ -5,12 +5,19 @@
   =f.collection_select :user_id, User.order(:surname),:id,:short_fio_with_doctor_type, :label => "Врач"
   =f.text_area :conclusion,:label => "Примечания",:rows => 3
 
-  = render :partial => "inspections",:locals => {:f => f}
+  =render :partial => "inspections",:locals => {:f => f}
 
   =f.fields_for :diagnoses do |b|
     =render :partial => "diagnosis_fields", :locals => {:b => b}
   %p
-    =link_to_add_fields "Добавить", f, :diagnoses
+    =link_to_add_fields "Добавить заболевание", f, :diagnoses
+  
+  / =f.fields_for :neurologists do |b|
+  /   =render :partial => "neurologist_fields", :locals => {:b => b}
+  
+    
+  / %p
+  /   =link_to_add_fields "Добавить осмотр невропатолога", f, :neurologists
 
   .form-actions
     =f.submit "Сохранить",:class => "btn primary"
