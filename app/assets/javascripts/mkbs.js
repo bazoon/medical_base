@@ -5,10 +5,13 @@
 
 $(document).ready(function() {
 
+
+ 
   return $('#mkb_mkb').autocomplete({
     source: "/ajax/mkb_types"
 
   });
+
 
 
 });

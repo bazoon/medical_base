@@ -38,6 +38,7 @@ class MkbsController < ApplicationController
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @mkb }
+      format.js
     end
   end
 
@@ -56,12 +57,21 @@ class MkbsController < ApplicationController
       if @mkb.save
         format.html { redirect_to client_mkbs_path(@client), notice: I18n.t(:record_created) }
         format.json { render json: @mkb, status: :created, location: @mkb }
+        format.js 
       else
         format.html { render action: "new" }
         format.json { render json: @mkb.errors, status: :unprocessable_entity }
       end
     end
   end
+
+  #Возвращает список заболеваний для комбобокса
+  def populate
+    # render :text => "Its me"
+    respond_to do |format|
+        format.js
+    end
+  end  
 
   # PUT /mkbs/1
   # PUT /mkbs/1.json

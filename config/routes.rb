@@ -60,15 +60,10 @@ Medical::Application.routes.draw do
       resources :sanatorium_notes
 
       resources :prof_inspections do
-
         resources :diagnoses
-       
         namespace :inspections do 
-       
-          resources :neurologists 
-       
+         resources :neurologists 
         end
-
       end 
 
       resources :htm_help_notes
@@ -77,7 +72,7 @@ Medical::Application.routes.draw do
       resources :diagnostic_tests
       resources :lab_tests
       resources :benefits
-      resources :mkbs
+      resources :mkbs 
       resources :mses
       resources :disps
   end

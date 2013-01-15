@@ -1,0 +1,4 @@
+$.facebox('<%= escape_javascript(render :template => 'mkbs/new.html.haml') %>')
+$('#facebox form').data('remote','true');
+$('#mkb_mkb').autocomplete({source: "/ajax/mkb_types"})
+loadDatePicker();

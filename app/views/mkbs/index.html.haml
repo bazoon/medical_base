@@ -24,7 +24,7 @@
           %td= "#{mkb.user.doctor_type.name} / #{mkb.user.short_fio}"
 
           %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-pencil"),edit_client_mkb_path(@client,mkb)
-          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , client_mkb_path(@client,mkb), :confirm => 'Are you sure?', :method => :delete
+          %td= link_to content_tag(:span,"",class: "ui-icon ui-icon-minus") , client_mkb_path(@client,mkb), :confirm => 'Are you sure?', :method => :delete if mkb.can_be_deleted
 
 
 

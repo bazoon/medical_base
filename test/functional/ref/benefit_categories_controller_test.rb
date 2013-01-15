@@ -1,8 +1,9 @@
 require 'test_helper'
 
 class Ref::BenefitCategoriesControllerTest < ActionController::TestCase
+  
   setup do
-    @ref_benefit_category = Factory.create(:benefit_category)
+    @ref_benefit_category = FactoryGirl.create(:benefit_category)
   end
 
   test "should get index" do
@@ -46,4 +47,5 @@ class Ref::BenefitCategoriesControllerTest < ActionController::TestCase
 
     assert_redirected_to ref_benefit_categories_path
   end
+
 end

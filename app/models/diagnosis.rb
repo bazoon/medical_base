@@ -1,6 +1,8 @@
 class Diagnosis < ActiveRecord::Base
   belongs_to :prof_inspection
+
   belongs_to :mkb_type, :class_name => 'Ref::MkbType'
+
   has_one :client,:through => :prof_inspection
 
   #delegate :mkb,:mkb=,:to => :mkb_type, :allow_nil => true

@@ -10,6 +10,17 @@
 //= require_tree .
 //
 
+var loadDatePicker = function() {
+
+$.datepicker.setDefaults( $.datepicker.regional["ru"] );
+  $('input.ui-datepicker').datepicker({
+        changeMonth: true,
+        changeYear: true,
+        showButtonPanel: true,
+        dateFormat: "dd.mm.yy"
+  });
+};
+
 $(document).ready(function() {
   return $('#client_search').autocomplete({
     source: "/ajax/clients"
@@ -26,13 +37,8 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $.datepicker.setDefaults( $.datepicker.regional["ru"] );
-  $('input.ui-datepicker').datepicker({
-        changeMonth: true,
-        changeYear: true,
-        showButtonPanel: true,
-        dateFormat: "dd.mm.yy"
-  });
+  loadDatePicker();
+  
 });
 
 
@@ -46,4 +52,6 @@ $(document).ready(function() {
 /* Activating Best In Place */
 jQuery(".best_in_place").best_in_place()
 });
+
+
 

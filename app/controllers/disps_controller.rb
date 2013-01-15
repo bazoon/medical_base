@@ -33,10 +33,12 @@ class DispsController < ApplicationController
   def new
     @disp = Disp.new
     @disp_mkbs = @client.mkbs
+    @mkb = Mkb.new
 
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @disp }
+      format.js {}
     end
   end
 

@@ -1,0 +1,9 @@
+<% if @mkb.save %>
+  $(document).trigger('close.facebox')
+  $("#disp_form").trigger('update_me')
+
+<% else %>
+  $('#facebox .content').html('<%= escape_javascript(render :template => 'mkbs/new.html.haml') %>')
+  $('#facebox form').data('remote','true');
+  $('#facebox .content p:last').remove();
+<% end %>

@@ -19,6 +19,7 @@
 
 
   = render :partial => "client", :locals => {:tab_id => "tab-0", :client => @client }
+  
   -#if @client.has_some_records?(:lab_tests) 
     =render :partial => "client_records",:locals => {:tab_id => "tab-1",:render_name => @client.lab_tests,:tab_name =>"Лабораторные исследования",:items => :lab_tests}
   -#if @client.has_some_records?(:diagnostic_tests) 

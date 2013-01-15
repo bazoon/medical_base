@@ -4,7 +4,6 @@ class Disp < ActiveRecord::Base
   belongs_to :mkb
   has_one :mkb_type,:through => :mkb
 
-
   STABLE = 1
   PROGRESS = 2
   REGRESS = 3

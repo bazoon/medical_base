@@ -45,12 +45,14 @@ def collection_select(method, collection, value_method, text_method, options = {
 
 
  content = super
+ add_link =  options[:add_link] if defined?(options[:add_link])
+ add_link = @template.link_to("+",add_link,:remote => true) if add_link 
 
  content = content + hint_field(options[:hint]) if defined?(options[:hint])
 
  content = @template.content_tag(:div,content,:class => "controls")
  label = label_field(options,required)
- @template.content_tag(:div,label + content,:class => "control-group")
+ @template.content_tag(:div,label+ add_link + content,:class => "control-group")
 end
 
 def check_box(method, options = {})

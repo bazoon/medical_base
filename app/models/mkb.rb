@@ -2,7 +2,9 @@ class Mkb < ActiveRecord::Base
   belongs_to :client, :counter_cache => true
   belongs_to :mkb_type, :class_name => 'Ref::MkbType'
   belongs_to :user
+  has_many :disps
   validates :client_id,:mkb_type_id,:actual_date,:user_id,:presence => true
+
 
   NO_DISP_GROUP = 0
   DISP_GROUP_1 = 1
@@ -33,6 +35,11 @@ class Mkb < ActiveRecord::Base
    self.mkb_type = Ref::MkbType.find_by_code(code)
  end
 
+def can_be_deleted
+
+  disps.count<=0
+
+end
 
 
 end

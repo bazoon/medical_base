@@ -3,9 +3,11 @@
   %fieldset
     %legend 
       Исходные данные
-    =f.date_select :actual_date, :label => "Дата направления" 
+    =f.date_select :actual_date, :label => "Дата" 
     =f.collection_select :user_id, User.order(:surname),:id,:short_fio_with_doctor_type, :label => "Врач"
-    =f.collection_select :mkb_id, @client.mkbs,:id,:mkb, :label => "Заболевание"
+    #mkbs
+      =f.collection_select :mkb_id, @client.mkbs,:id,:mkb, {:label => "Заболевание", :add_link =>  new_client_mkb_path(@client)}
+
   %fieldset
     %legend 
       Заключение
@@ -14,6 +16,6 @@
     =f.radio_button :result,Disp::REGRESS,:label => "Хуже"
 
 
-
+    =hidden_field_tag :client_id,@client.id
   .form-actions
     =f.submit "Сохранить",:class => "btn primary"
