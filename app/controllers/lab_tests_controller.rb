@@ -62,7 +62,7 @@ class LabTestsController < ApplicationController
         format.html { redirect_to client_lab_tests_path(@client), notice: t(:lab_test_saved) }
         format.json { render json: @lab_test, status: :created, location: @lab_test }
       else
-        format.html { render action: "new" }
+        format.html { redirect_to new_client_lab_test_path(@client),notice: t(:record_not_saved)  }
         format.json { render json: @lab_test.errors, status: :unprocessable_entity }
       end
     end

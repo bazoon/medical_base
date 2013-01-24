@@ -41,7 +41,7 @@ class Ref::LabTestTypesController < ApplicationController
         format.html { redirect_to ref_lab_test_types_path, notice: I18n.t(:record_created) }
         format.json { render json: @ref_lab_test_type, status: :created, location: @ref_lab_test_type }
       else
-        format.html { render action: "new" }
+        format.html { render action: "new",:notice => "ERROR" }
         format.json { render json: @ref_lab_test_type.errors, status: :unprocessable_entity }
       end
     end

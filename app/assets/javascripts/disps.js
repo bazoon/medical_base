@@ -10,7 +10,7 @@ $('#disp_form').bind('update_me',function(){
 
  	var client_id = $("#client_id").val();
 
- 	var path = "/clients/"+client_id+"/disps/new";
+ 	var path = "/clients/"+client_id+"/disps/new.js";
  	
  	// alert(path);
 
@@ -19,7 +19,7 @@ $('#disp_form').bind('update_me',function(){
 
  $.ajax({
     url: path,             // указываем URL и
-    // dataType : "json",                     // тип загружаемых данных
+    dataType : "html",                     // тип загружаемых данных
     success: function (data, textStatus) { // вешаем свой обработчик на функцию success
        
        $("#disp_form").html(data)

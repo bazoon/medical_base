@@ -1,5 +1,7 @@
 %h1 Новый лабораторный анализ
-
+-if flash[:notice]
+	#div{class: "alert alert-error"}
+		= flash[:notice]
 = render 'form'
 
 = link_to 'Назад', client_lab_tests_path

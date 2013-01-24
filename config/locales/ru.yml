@@ -18,6 +18,7 @@ ru:
   record_created: "Данные были успешно внесены"
   record_updated: "Данные были успешно изменены"
   record_saved: "Данные были успешно сохранены"
+  record_not_saved : "Ошибка сохранения данных" 
   login: "Логин"
   sex_m: "М"
   sex_w: "Ж"

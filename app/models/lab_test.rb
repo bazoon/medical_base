@@ -2,9 +2,7 @@ class LabTest < ActiveRecord::Base
   belongs_to :client, :counter_cache => true
   belongs_to :lab_test_type, :class_name => 'Ref::LabTestType'
 
-  validates :result,:test_date ,:presence => true
-
- # validates :lab_test_type_present
+  validates :result,:test_date,:lab_test_type, :presence => true
 
   scope :prof_inspection_minimum,lambda {prof_inspection_min} #Анализы для профосмотров
 
@@ -25,7 +23,10 @@ class LabTest < ActiveRecord::Base
 
 
   def self.prof_inspection_min
-    all.map {|lt| lt if lt.lab_test_type.clin_min_list.include?(I18n.t(:prof_tag_name))}.compact
+
+    all.map {|lt| lt if lt.lab_test_type && lt.lab_test_type.clin_min_list.include?(I18n.t(:prof_tag_name))}.compact
+
+
   end
 
 
