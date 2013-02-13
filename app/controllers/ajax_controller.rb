@@ -1,5 +1,7 @@
 class AjaxController < ApplicationController
 
+# caches_action :mkb_types
+
  def clients
     if params[:term]
       like= "%".concat(params[:term].concat("%"))
@@ -12,26 +14,30 @@ class AjaxController < ApplicationController
  end
 
 
-   def mkb_types
 
-    if params[:term]
-      like= "%".concat(params[:term].concat("%"))
+def make_mkb_type_list(query)
+  
+    if query
+      like= "%".concat(query.concat("%"))
       mkb_types = Ref::MkbType.where("code like ?", like)
     
       if mkb_types.count == 0
         mkb_types = Ref::MkbType.where("name like ?", like)
       end
-    
     end
 
-    if mkb_types.empty?
-      mkb_types = Ref::MkbType.all
-    end
 
-    list = mkb_types.map {|m| Hash[ id: m.id, label: "#{m.code}: #{m.name}", name: m.code, category: "#{m.class_number}"]}
+   mkb_types.map {|m| Hash[ id: m.id, label: "#{m.code}: #{m.name}", name: m.code, category: "#{m.class_number}"]}
+
+end
+
+def mkb_types
+  if params[:term]
+    # list =  Rails.cache.fetch("ml#{params[:term]}") { make_mkb_type_list(params[:term]) }
+    list = make_mkb_type_list(params[:term]) }
     render json: list
-     
-   end
+  end  
+end
 
 
   def prof_inspections_by_year

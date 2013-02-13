@@ -54,7 +54,7 @@ end
 
 FactoryGirl.define do 
   factory :lab_test do  
-    lab_test_type_id 1
+    association :lab_test_type,:factory => :lab_test_type
     test_date '01.01.2011'
     result "ok"
     client_id 1

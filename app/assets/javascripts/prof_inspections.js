@@ -39,7 +39,40 @@ function add_fields(link, association, content) {
         var new_id = new Date().getTime();
         var regexp = new RegExp("new_" + association, "g");
         $(link).parent().before(content.replace(regexp, new_id));
-        $('.mkb').autocomplete({ source: "/ajax/mkb_types" });
+        $('.mkb').autocomplete({
+              source: function(request, response) {
+              var term          = request.term.toLowerCase(),
+              element       = this.element,
+              cache         = this.element.data('autocompleteCache') || {},
+              foundInCache  = false;
+
+              $.each(cache, function(key, data){
+                if (term.indexOf(key) === 0 && data.length > 0) {
+                  response(data);
+                  foundInCache = true;
+                  return;
+                }
+              });
+
+            if (foundInCache) return;
+
+            $.ajax({
+                url: '/ajax/mkb_types',
+                dataType: "json",
+                data: request,
+                success: function(data) {
+                    cache[term] = data;
+                    element.data('autocompleteCache', cache);
+                    response(data);
+                }
+            });
+        },
+        minLength: 2
+      });
+
+
+
+
 }
 
 

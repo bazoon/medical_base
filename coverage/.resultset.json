@@ -22709,7 +22709,7 @@
   },
   "Unit Tests": {
     "coverage": {
-      "/Users/vith/Desktop/projects/rails/medical_base/config/environment.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/environment.rb": [
         null,
         1,
         null,
@@ -22723,7 +22723,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/application.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/application.rb": [
         1,
         null,
         1,
@@ -22776,7 +22776,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/boot.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/boot.rb": [
         1,
         null,
         null,
@@ -22784,7 +22784,7 @@
         null,
         1
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/environments/test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/environments/test.rb": [
         1,
         null,
         null,
@@ -22832,7 +22832,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/backtrace_silencers.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -22841,10 +22841,10 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/date_format.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/date_format.rb": [
         1
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/inflections.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -22856,28 +22856,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/mime_types.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/pry_init.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/secret_token.rb": [
-        null,
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/mime_types.rb": [
         null,
         null,
         null,
@@ -22885,7 +22864,28 @@
         null,
         1
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/session_store.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/pry_init.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/secret_token.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/session_store.rb": [
         null,
         null,
         1,
@@ -22895,7 +22895,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/wrap_parameters.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -22911,7 +22911,7 @@
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ajax_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ajax_controller.rb": [
         1,
         null,
         1,
@@ -23008,7 +23008,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/application_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/application_controller.rb": [
         1,
         1,
         null,
@@ -23034,7 +23034,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/application_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/application_helper.rb": [
         1,
         null,
         null,
@@ -23121,19 +23121,19 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ajax_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ajax_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/benefits_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/benefits_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/clients_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/clients_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/diagnoses_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/diagnoses_helper.rb": [
         1,
         null,
         null,
@@ -23149,133 +23149,133 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/diagnostic_tests_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/diagnostic_tests_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/disps_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/disps_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/hospitalizations_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/hospitalizations_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/htm_help_notes_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/htm_help_notes_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/inspections/neurologists_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/inspections/neurologists_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/inspections.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/inspections.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/lab_tests_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/lab_tests_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/med_diagnostic_tests_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/med_diagnostic_tests_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/mkbs_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/mkbs_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/mse_calendar_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/mse_calendar_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/mses_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/mses_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/prof_inspections_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/prof_inspections_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/benefit_categories_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/benefit_categories_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref.rb": [
         1,
         1,
         11,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/death_reasons_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/death_reasons_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/desease_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/desease_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/diagnostic_test_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/diagnostic_test_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/doctor_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/doctor_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/hospitalization_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/hospitalization_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/htm_help_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/htm_help_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/ins_companies_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/ins_companies_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/lab_clin_mins_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/lab_clin_mins_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/lab_test_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/lab_test_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/med_diagnostic_test_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/med_diagnostic_test_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/mkb_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/mkb_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/sanatoria_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/sanatoria_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/rep/main_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/rep/main_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/rep/service_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/rep/service_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/sanatorium_notes_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/sanatorium_notes_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/users_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/benefits_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/benefits_controller.rb": [
         1,
         null,
         null,
@@ -23372,7 +23372,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/benefit.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/benefit.rb": [
         1,
         1,
         1,
@@ -23487,7 +23487,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/benefit_category.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/benefit_category.rb": [
         1,
         null,
         1,
@@ -23593,7 +23593,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/clients_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/clients_controller.rb": [
         1,
         null,
         null,
@@ -23721,7 +23721,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/client.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/client.rb": [
         null,
         1,
         1,
@@ -24255,7 +24255,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/mkb_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/mkb_type.rb": [
         1,
         null,
         1,
@@ -24409,7 +24409,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/hospitalization.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/hospitalization.rb": [
         1,
         1,
         1,
@@ -24509,7 +24509,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/diagnoses_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/diagnoses_controller.rb": [
         1,
         null,
         null,
@@ -24605,7 +24605,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/diagnosis.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/diagnosis.rb": [
         1,
         1,
         null,
@@ -24709,7 +24709,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/diagnostic_tests_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/diagnostic_tests_controller.rb": [
         1,
         null,
         null,
@@ -24803,7 +24803,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/diagnostic_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/diagnostic_test.rb": [
         1,
         null,
         1,
@@ -24870,7 +24870,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/disps_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/disps_controller.rb": [
         1,
         null,
         null,
@@ -24966,7 +24966,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/disp.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/disp.rb": [
         1,
         1,
         1,
@@ -25041,7 +25041,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/hospitalizations_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/hospitalizations_controller.rb": [
         1,
         null,
         null,
@@ -25135,7 +25135,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/htm_help_notes_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/htm_help_notes_controller.rb": [
         1,
         null,
         null,
@@ -25229,7 +25229,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/htm_help_note.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/htm_help_note.rb": [
         1,
         1,
         1,
@@ -25251,7 +25251,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/inspections/neurologists_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/inspections/neurologists_controller.rb": [
         1,
         null,
         null,
@@ -25336,13 +25336,13 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/inspections/neurologist.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/inspections/neurologist.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/lab_tests_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/lab_tests_controller.rb": [
         1,
         null,
         null,
@@ -25442,15 +25442,13 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/lab_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/lab_test.rb": [
         1,
         1,
         1,
         null,
         1,
         null,
-        null,
-        null,
         1,
         null,
         1,
@@ -25470,7 +25468,10 @@
         null,
         null,
         1,
+        null,
         0,
+        null,
+        null,
         null,
         null,
         null,
@@ -25505,7 +25506,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/med_diagnostic_tests_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/med_diagnostic_tests_controller.rb": [
         1,
         null,
         null,
@@ -25604,7 +25605,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/med_diagnostic_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/med_diagnostic_test.rb": [
         1,
         1,
         1,
@@ -25660,7 +25661,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/mkbs_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/mkbs_controller.rb": [
         1,
         null,
         null,
@@ -25765,7 +25766,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/mkb.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/mkb.rb": [
         1,
         1,
         1,
@@ -25825,7 +25826,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/mse_calendar_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/mse_calendar_controller.rb": [
         1,
         null,
         null,
@@ -25848,7 +25849,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/mses_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/mses_controller.rb": [
         1,
         null,
         null,
@@ -25948,7 +25949,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/mse.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/mse.rb": [
         1,
         1,
         1,
@@ -26087,7 +26088,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/prof_inspections_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/prof_inspections_controller.rb": [
         1,
         null,
         null,
@@ -26219,7 +26220,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/prof_inspection.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/prof_inspection.rb": [
         1,
         1,
         1,
@@ -26323,7 +26324,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/benefit_categories_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/benefit_categories_controller.rb": [
         1,
         null,
         null,
@@ -26410,7 +26411,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/death_reasons_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/death_reasons_controller.rb": [
         1,
         null,
         null,
@@ -26495,7 +26496,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/death_reason.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/death_reason.rb": [
         1,
         1,
         1,
@@ -26516,7 +26517,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/diagnostic_test_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/diagnostic_test_types_controller.rb": [
         1,
         null,
         null,
@@ -26601,7 +26602,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/diagnostic_test_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/diagnostic_test_type.rb": [
         1,
         1,
         1,
@@ -26634,7 +26635,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/doctor_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/doctor_types_controller.rb": [
         1,
         null,
         null,
@@ -26719,7 +26720,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/doctor_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/doctor_type.rb": [
         1,
         1,
         1,
@@ -26741,7 +26742,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/hospitalization_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/hospitalization_types_controller.rb": [
         1,
         null,
         null,
@@ -26826,7 +26827,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/hospitalization_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/hospitalization_type.rb": [
         1,
         1,
         1,
@@ -26847,7 +26848,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/htm_help_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/htm_help_types_controller.rb": [
         1,
         null,
         null,
@@ -26931,7 +26932,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/htm_help_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/htm_help_type.rb": [
         1,
         1,
         1,
@@ -26953,7 +26954,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/ins_companies_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/ins_companies_controller.rb": [
         1,
         null,
         null,
@@ -27038,7 +27039,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/ins_company.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/ins_company.rb": [
         1,
         1,
         1,
@@ -27063,7 +27064,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/lab_test_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/lab_test_types_controller.rb": [
         1,
         null,
         null,
@@ -27142,7 +27143,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/lab_test_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/lab_test_type.rb": [
         1,
         1,
         1,
@@ -27201,7 +27202,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/med_diagnostic_test_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/med_diagnostic_test_types_controller.rb": [
         1,
         null,
         null,
@@ -27286,7 +27287,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/med_diagnostic_test_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/med_diagnostic_test_type.rb": [
         1,
         1,
         null,
@@ -27310,7 +27311,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/mkb_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/mkb_types_controller.rb": [
         1,
         null,
         null,
@@ -27396,7 +27397,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/sanatoria_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/sanatoria_controller.rb": [
         1,
         null,
         null,
@@ -27481,7 +27482,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/sanatorium.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/sanatorium.rb": [
         1,
         1,
         1,
@@ -27502,7 +27503,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/rep/mains_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/rep/mains_controller.rb": [
         1,
         null,
         1,
@@ -27535,7 +27536,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/rep/service_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/rep/service_controller.rb": [
         1,
         1,
         null,
@@ -27557,7 +27558,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/sanatorium_notes_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/sanatorium_notes_controller.rb": [
         1,
         null,
         null,
@@ -27653,7 +27654,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/sanatorium_note.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/sanatorium_note.rb": [
         1,
         1,
         1,
@@ -27677,7 +27678,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/users_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/users_controller.rb": [
         1,
         null,
         null,
@@ -27767,7 +27768,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/user.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/user.rb": [
         1,
         1,
         1,
@@ -27859,7 +27860,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/welcome_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/welcome_controller.rb": [
         1,
         null,
         1,
@@ -27868,7 +27869,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/form_builders/bootstrap_form_builder.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/form_builders/bootstrap_form_builder.rb": [
         1,
         null,
         null,
@@ -28014,7 +28015,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/form_builders/old.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/form_builders/old.rb": [
         null,
         1,
         null,
@@ -28151,7 +28152,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/benefit_observer.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/benefit_observer.rb": [
         1,
         null,
         null,
@@ -28178,14 +28179,14 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/inspection.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/inspection.rb": [
         1,
         1,
         0,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/med_diagnostic_test_doctor.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/med_diagnostic_test_doctor.rb": [
         1,
         1,
         1,
@@ -28202,7 +28203,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/desease_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/desease_type.rb": [
         1,
         null,
         1,
@@ -28224,7 +28225,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/lab_clin_min.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/lab_clin_min.rb": [
         1,
         1,
         null,
@@ -28245,26 +28246,26 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/lab_test_group.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/lab_test_group.rb": [
         1,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/lab_test_type_group.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/lab_test_type_group.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/tagging.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/tagging.rb": [
         1,
         null,
         null,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/presenters/base_presenter.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/presenters/base_presenter.rb": [
         1,
         null,
         null,
@@ -28290,7 +28291,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/presenters/client_operations_presenter.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/presenters/client_operations_presenter.rb": [
         1,
         null,
         1,
@@ -28355,7 +28356,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/presenters/client_presenter.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/presenters/client_presenter.rb": [
         1,
         null,
         null,
@@ -28372,7 +28373,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/presenters/ref_presenter.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/presenters/ref_presenter.rb": [
         1,
         null,
         1,
@@ -28419,7 +28420,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/base_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/base_report.rb": [
         1,
         1,
         null,
@@ -28508,7 +28509,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/breport.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/breport.rb": [
         1,
         1,
         1,
@@ -28577,7 +28578,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/deads_by_ages_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/deads_by_ages_report.rb": [
         1,
         1,
         null,
@@ -28609,7 +28610,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/deads_by_desease_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/deads_by_desease_report.rb": [
         1,
         null,
         null,
@@ -28649,7 +28650,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/death_reports_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/death_reports_report.rb": [
         1,
         1,
         null,
@@ -28660,7 +28661,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_by_group_imobile_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_by_group_imobile_report.rb": [
         1,
         1,
         1,
@@ -28691,7 +28692,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_by_group_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_by_group_report.rb": [
         1,
         null,
         null,
@@ -28720,7 +28721,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_by_groupn.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_by_groupn.rb": [
         1,
         null,
         null,
@@ -28762,7 +28763,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_by_mkb_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_by_mkb_report.rb": [
         1,
         1,
         null,
@@ -28817,7 +28818,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_efficency_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_efficency_report.rb": [
         1,
         1,
         1,
@@ -28850,7 +28851,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_invalids_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_invalids_report.rb": [
         1,
         1,
         1,
@@ -28962,7 +28963,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/doctor_function_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/doctor_function_report.rb": [
         1,
         null,
         1,
@@ -28997,7 +28998,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/doctor_visit_plan_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/doctor_visit_plan_report.rb": [
         1,
         null,
         null,
@@ -29025,7 +29026,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/doctor_visit_structure_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/doctor_visit_structure_report.rb": [
         1,
         null,
         null,
@@ -29053,7 +29054,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/hosp_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/hosp_report.rb": [
         1,
         1,
         1,
@@ -29112,7 +29113,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/hosp_therap_extra_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/hosp_therap_extra_report.rb": [
         1,
         1,
         1,
@@ -29145,7 +29146,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/imobile_death_structure_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/imobile_death_structure_report.rb": [
         1,
         null,
         1,
@@ -29185,7 +29186,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/imobile_hosp_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/imobile_hosp_report.rb": [
         1,
         1,
         1,
@@ -29214,7 +29215,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/inspected_disables_count_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/inspected_disables_count_report.rb": [
         1,
         1,
         null,
@@ -29259,7 +29260,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/invalids_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/invalids_report.rb": [
         1,
         1,
         1,
@@ -29306,7 +29307,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/out_consult_count_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/out_consult_count_report.rb": [
         1,
         1,
         1,
@@ -29343,7 +29344,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/people_structure_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/people_structure_report.rb": [
         1,
         1,
         1,
@@ -29386,7 +29387,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/prof_desease_freq_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/prof_desease_freq_report.rb": [
         1,
         1,
         1,
@@ -29418,10 +29419,10 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/prof_inspection_plan_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/prof_inspection_plan_report.rb": [
 
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/sickness_rate_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/sickness_rate_report.rb": [
         1,
         1,
         null,
@@ -29469,7 +29470,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/widgets/lab_test/count_widget.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/widgets/lab_test/count_widget.rb": [
         1,
         1,
         1,
@@ -29500,7 +29501,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/widgets/lab_test/form_widget.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/widgets/lab_test/form_widget.rb": [
         1,
         1,
         null,
@@ -29532,7 +29533,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/widgets/lab_test/list_widget.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/widgets/lab_test/list_widget.rb": [
         1,
         1,
         1,
@@ -29578,7 +29579,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/widgets/lab_test/page_widget.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/widgets/lab_test/page_widget.rb": [
         1,
         1,
         null,
@@ -29601,7 +29602,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/factories.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/factories.rb": [
         1,
         1,
         1,
@@ -29815,7 +29816,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/factories/inspections_neurologists.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/factories/inspections_neurologists.rb": [
         null,
         null,
         1,
@@ -29823,7 +29824,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/factories/med_diagnostic_test_doctors.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/factories/med_diagnostic_test_doctors.rb": [
         null,
         null,
         1,
@@ -29833,17 +29834,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/spec/factories/ref_lab_test_groups.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/spec/factories/ref_lab_test_type_groups.rb": [
-        null,
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/spec/factories/ref_lab_test_groups.rb": [
         null,
         null,
         null,
@@ -29852,7 +29843,17 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/routes.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/spec/factories/ref_lab_test_type_groups.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/routes.rb": [
         1,
         null,
         null,
@@ -29932,10 +29933,6 @@
         1,
         null,
         null,
-        1,
-        1,
-        null,
-        null,
         null,
         null,
         null,
@@ -30003,7 +30000,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/client_sex_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/client_sex_test.rb": [
         1,
         null,
         1,
@@ -30012,7 +30009,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/client_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/client_test.rb": [
         1,
         null,
         1,
@@ -30021,7 +30018,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/diagnosis_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/diagnosis_test.rb": [
         1,
         null,
         1,
@@ -30030,7 +30027,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/diagnostic_test_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/diagnostic_test_test.rb": [
         1,
         null,
         1,
@@ -30039,7 +30036,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/disp_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/disp_test.rb": [
         1,
         null,
         1,
@@ -30048,208 +30045,199 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ajax_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ajax_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/benefits_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/benefits_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/client_sexes_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/client_sexes_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/clients_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/clients_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/diagnoses_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/diagnoses_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/diagnostic_tests_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/diagnostic_tests_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/disps_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/disps_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/hospitalizations_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/hospitalizations_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/htm_help_notes_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/htm_help_notes_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/inspections/neurologists_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/inspections/neurologists_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/lab_tests_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/lab_tests_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/med_diagnostic_tests_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/med_diagnostic_tests_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/mkbs_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/mkbs_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/mse_calendar_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/mse_calendar_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/mses_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/mses_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/prof_inspections_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/prof_inspections_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/benefit_categories_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/benefit_categories_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/death_reasons_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/death_reasons_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/desease_types_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/desease_types_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/diagnostic_test_types_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/diagnostic_test_types_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/doctor_types_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/doctor_types_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/hospitalization_types_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/hospitalization_types_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/htm_help_types_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/htm_help_types_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/ins_companies_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/ins_companies_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/lab_clin_mins_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/lab_clin_mins_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/lab_test_types_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/lab_test_types_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/med_diagnostic_test_types_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/med_diagnostic_test_types_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/mkb_types_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/mkb_types_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/ref/sanatoria_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/ref/sanatoria_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/rep/main_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/rep/main_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/sanatorium_notes_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/sanatorium_notes_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/helpers/users_helper_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/helpers/users_helper_test.rb": [
         1,
         null,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/hospitalization_test.rb": [
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/htm_help_note_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/hospitalization_test.rb": [
         1,
         null,
         1,
@@ -30258,7 +30246,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/inspections/neurologist_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/htm_help_note_test.rb": [
         1,
         null,
         1,
@@ -30267,7 +30255,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/lab_test_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/inspections/neurologist_test.rb": [
         1,
         null,
         1,
@@ -30276,7 +30264,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/med_diagnostic_test_doctor_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/lab_test_test.rb": [
         1,
         null,
         1,
@@ -30285,7 +30273,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/med_diagnostic_test_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/med_diagnostic_test_doctor_test.rb": [
         1,
         null,
         1,
@@ -30294,7 +30282,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/mkb_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/med_diagnostic_test_test.rb": [
         1,
         null,
         1,
@@ -30303,7 +30291,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/mse_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/mkb_test.rb": [
         1,
         null,
         1,
@@ -30312,7 +30300,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/prof_inspection_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/mse_test.rb": [
         1,
         null,
         1,
@@ -30321,7 +30309,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/benefit_category_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/prof_inspection_test.rb": [
         1,
         null,
         1,
@@ -30330,7 +30318,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/death_reason_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/benefit_category_test.rb": [
         1,
         null,
         1,
@@ -30339,7 +30327,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/desease_type_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/death_reason_test.rb": [
         1,
         null,
         1,
@@ -30348,7 +30336,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/diagnostic_test_type_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/desease_type_test.rb": [
         1,
         null,
         1,
@@ -30357,7 +30345,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/doctor_type_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/diagnostic_test_type_test.rb": [
         1,
         null,
         1,
@@ -30366,7 +30354,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/hospitalization_type_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/doctor_type_test.rb": [
         1,
         null,
         1,
@@ -30375,7 +30363,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/htm_help_type_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/hospitalization_type_test.rb": [
         1,
         null,
         1,
@@ -30384,7 +30372,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/ins_company_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/htm_help_type_test.rb": [
         1,
         null,
         1,
@@ -30393,7 +30381,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/lab_clin_min_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/ins_company_test.rb": [
         1,
         null,
         1,
@@ -30402,7 +30390,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/lab_test_type_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/lab_clin_min_test.rb": [
         1,
         null,
         1,
@@ -30411,7 +30399,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/med_diagnostic_test_type_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/lab_test_type_test.rb": [
         1,
         null,
         1,
@@ -30420,7 +30408,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/mkb_type_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/med_diagnostic_test_type_test.rb": [
         1,
         null,
         1,
@@ -30429,7 +30417,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/ref/sanatorium_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/mkb_type_test.rb": [
         1,
         null,
         1,
@@ -30438,7 +30426,16 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/reports/people_structure_report_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/ref/sanatorium_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/reports/people_structure_report_test.rb": [
         1,
         null,
         1,
@@ -30505,7 +30502,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/sanatorium_note_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/sanatorium_note_test.rb": [
         1,
         null,
         1,
@@ -30514,7 +30511,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/unit/user_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/unit/user_test.rb": [
         1,
         null,
         1,
@@ -30524,11 +30521,11 @@
         null
       ]
     },
-    "timestamp": 1358257818
+    "timestamp": 1359004809
   },
   "Functional Tests": {
     "coverage": {
-      "/Users/vith/Desktop/projects/rails/medical_base/config/environment.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/environment.rb": [
         null,
         1,
         null,
@@ -30542,7 +30539,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/application.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/application.rb": [
         1,
         null,
         1,
@@ -30595,7 +30592,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/boot.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/boot.rb": [
         1,
         null,
         null,
@@ -30603,7 +30600,7 @@
         null,
         1
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/environments/test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/environments/test.rb": [
         1,
         null,
         null,
@@ -30651,7 +30648,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/backtrace_silencers.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -30660,10 +30657,10 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/date_format.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/date_format.rb": [
         1
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/inflections.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -30675,28 +30672,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/mime_types.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/pry_init.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/secret_token.rb": [
-        null,
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/mime_types.rb": [
         null,
         null,
         null,
@@ -30704,7 +30680,28 @@
         null,
         1
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/session_store.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/pry_init.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/secret_token.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/session_store.rb": [
         null,
         null,
         1,
@@ -30714,7 +30711,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/initializers/wrap_parameters.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -30730,7 +30727,7 @@
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ajax_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ajax_controller.rb": [
         1,
         null,
         1,
@@ -30827,7 +30824,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/application_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/application_controller.rb": [
         1,
         1,
         null,
@@ -30853,7 +30850,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/application_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/application_helper.rb": [
         1,
         null,
         null,
@@ -30940,19 +30937,19 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ajax_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ajax_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/benefits_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/benefits_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/clients_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/clients_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/diagnoses_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/diagnoses_helper.rb": [
         1,
         null,
         null,
@@ -30968,133 +30965,133 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/diagnostic_tests_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/diagnostic_tests_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/disps_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/disps_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/hospitalizations_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/hospitalizations_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/htm_help_notes_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/htm_help_notes_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/inspections/neurologists_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/inspections/neurologists_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/inspections.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/inspections.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/lab_tests_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/lab_tests_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/med_diagnostic_tests_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/med_diagnostic_tests_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/mkbs_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/mkbs_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/mse_calendar_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/mse_calendar_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/mses_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/mses_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/prof_inspections_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/prof_inspections_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/benefit_categories_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/benefit_categories_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref.rb": [
         1,
         1,
         13,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/death_reasons_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/death_reasons_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/desease_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/desease_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/diagnostic_test_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/diagnostic_test_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/doctor_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/doctor_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/hospitalization_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/hospitalization_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/htm_help_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/htm_help_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/ins_companies_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/ins_companies_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/lab_clin_mins_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/lab_clin_mins_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/lab_test_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/lab_test_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/med_diagnostic_test_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/med_diagnostic_test_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/mkb_types_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/mkb_types_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/ref/sanatoria_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/ref/sanatoria_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/rep/main_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/rep/main_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/rep/service_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/rep/service_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/sanatorium_notes_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/sanatorium_notes_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/helpers/users_helper.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/benefits_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/benefits_controller.rb": [
         1,
         null,
         null,
@@ -31191,7 +31188,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/benefit.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/benefit.rb": [
         1,
         1,
         1,
@@ -31306,7 +31303,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/benefit_category.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/benefit_category.rb": [
         1,
         null,
         1,
@@ -31412,7 +31409,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/clients_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/clients_controller.rb": [
         1,
         null,
         null,
@@ -31540,7 +31537,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/client.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/client.rb": [
         null,
         1,
         1,
@@ -32074,7 +32071,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/mkb_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/mkb_type.rb": [
         1,
         null,
         1,
@@ -32228,7 +32225,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/hospitalization.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/hospitalization.rb": [
         1,
         1,
         1,
@@ -32328,7 +32325,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/diagnoses_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/diagnoses_controller.rb": [
         1,
         null,
         null,
@@ -32424,7 +32421,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/diagnosis.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/diagnosis.rb": [
         1,
         1,
         null,
@@ -32528,7 +32525,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/diagnostic_tests_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/diagnostic_tests_controller.rb": [
         1,
         null,
         null,
@@ -32622,7 +32619,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/diagnostic_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/diagnostic_test.rb": [
         1,
         null,
         1,
@@ -32689,7 +32686,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/disps_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/disps_controller.rb": [
         1,
         null,
         null,
@@ -32785,7 +32782,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/disp.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/disp.rb": [
         1,
         1,
         1,
@@ -32860,7 +32857,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/hospitalizations_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/hospitalizations_controller.rb": [
         1,
         null,
         null,
@@ -32954,7 +32951,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/htm_help_notes_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/htm_help_notes_controller.rb": [
         1,
         null,
         null,
@@ -33048,7 +33045,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/htm_help_note.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/htm_help_note.rb": [
         1,
         1,
         1,
@@ -33070,7 +33067,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/inspections/neurologists_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/inspections/neurologists_controller.rb": [
         1,
         null,
         null,
@@ -33155,13 +33152,13 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/inspections/neurologist.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/inspections/neurologist.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/lab_tests_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/lab_tests_controller.rb": [
         1,
         null,
         null,
@@ -33261,14 +33258,12 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/lab_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/lab_test.rb": [
         1,
         1,
         1,
         null,
         1,
-        null,
-        null,
         null,
         1,
         null,
@@ -33289,7 +33284,10 @@
         null,
         null,
         1,
+        null,
         0,
+        null,
+        null,
         null,
         null,
         null,
@@ -33324,7 +33322,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/med_diagnostic_tests_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/med_diagnostic_tests_controller.rb": [
         1,
         null,
         null,
@@ -33423,7 +33421,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/med_diagnostic_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/med_diagnostic_test.rb": [
         1,
         1,
         1,
@@ -33479,7 +33477,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/mkbs_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/mkbs_controller.rb": [
         1,
         null,
         null,
@@ -33584,7 +33582,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/mkb.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/mkb.rb": [
         1,
         1,
         1,
@@ -33644,7 +33642,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/mse_calendar_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/mse_calendar_controller.rb": [
         1,
         null,
         null,
@@ -33667,7 +33665,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/mses_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/mses_controller.rb": [
         1,
         null,
         null,
@@ -33767,7 +33765,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/mse.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/mse.rb": [
         1,
         1,
         1,
@@ -33906,7 +33904,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/prof_inspections_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/prof_inspections_controller.rb": [
         1,
         null,
         null,
@@ -34038,7 +34036,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/prof_inspection.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/prof_inspection.rb": [
         1,
         1,
         1,
@@ -34142,7 +34140,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/benefit_categories_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/benefit_categories_controller.rb": [
         1,
         null,
         null,
@@ -34229,7 +34227,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/death_reasons_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/death_reasons_controller.rb": [
         1,
         null,
         null,
@@ -34314,7 +34312,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/death_reason.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/death_reason.rb": [
         1,
         1,
         1,
@@ -34335,125 +34333,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/diagnostic_test_types_controller.rb": [
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        2,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/diagnostic_test_type.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/doctor_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/diagnostic_test_types_controller.rb": [
         1,
         null,
         null,
@@ -34538,225 +34418,24 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/doctor_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/diagnostic_test_type.rb": [
         1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/hospitalization_types_controller.rb": [
-        1,
-        null,
-        null,
         1,
         1,
         null,
         1,
         1,
+        null,
+        null,
         1,
-        null,
-        null,
-        null,
+        1,
         null,
         null,
         1,
         0,
         null,
-        0,
-        0,
-        0,
         null,
         null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        2,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/hospitalization_type.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/htm_help_types_controller.rb": [
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        2,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/htm_help_type.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
         null,
         null,
         null,
@@ -34772,7 +34451,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/ins_companies_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/doctor_types_controller.rb": [
         1,
         null,
         null,
@@ -34857,13 +34536,10 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/ins_company.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/doctor_type.rb": [
         1,
         1,
         1,
-        null,
-        1,
-        0,
         null,
         null,
         1,
@@ -34882,145 +34558,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/lab_test_types_controller.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        2,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/lab_test_type.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/med_diagnostic_test_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/hospitalization_types_controller.rb": [
         1,
         null,
         null,
@@ -35105,7 +34643,467 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/med_diagnostic_test_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/hospitalization_type.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/htm_help_types_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        2,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/htm_help_type.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/ins_companies_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        2,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/ins_company.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/lab_test_types_controller.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        2,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/lab_test_type.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/med_diagnostic_test_types_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        2,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/med_diagnostic_test_type.rb": [
         1,
         1,
         null,
@@ -35129,7 +35127,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/mkb_types_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/mkb_types_controller.rb": [
         1,
         null,
         null,
@@ -35215,7 +35213,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/ref/sanatoria_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/ref/sanatoria_controller.rb": [
         1,
         null,
         null,
@@ -35300,7 +35298,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/sanatorium.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/sanatorium.rb": [
         1,
         1,
         1,
@@ -35321,7 +35319,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/rep/mains_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/rep/mains_controller.rb": [
         1,
         null,
         1,
@@ -35354,7 +35352,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/rep/service_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/rep/service_controller.rb": [
         1,
         1,
         null,
@@ -35376,7 +35374,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/sanatorium_notes_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/sanatorium_notes_controller.rb": [
         1,
         null,
         null,
@@ -35472,7 +35470,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/sanatorium_note.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/sanatorium_note.rb": [
         1,
         1,
         1,
@@ -35496,7 +35494,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/users_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/users_controller.rb": [
         1,
         null,
         null,
@@ -35586,7 +35584,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/user.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/user.rb": [
         1,
         1,
         1,
@@ -35678,7 +35676,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/controllers/welcome_controller.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/controllers/welcome_controller.rb": [
         1,
         null,
         1,
@@ -35687,7 +35685,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/form_builders/bootstrap_form_builder.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/form_builders/bootstrap_form_builder.rb": [
         1,
         null,
         null,
@@ -35833,7 +35831,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/form_builders/old.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/form_builders/old.rb": [
         null,
         1,
         null,
@@ -35970,7 +35968,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/benefit_observer.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/benefit_observer.rb": [
         1,
         null,
         null,
@@ -35997,14 +35995,14 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/inspection.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/inspection.rb": [
         1,
         1,
         0,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/med_diagnostic_test_doctor.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/med_diagnostic_test_doctor.rb": [
         1,
         1,
         1,
@@ -36021,7 +36019,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/desease_type.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/desease_type.rb": [
         1,
         null,
         1,
@@ -36043,7 +36041,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/lab_clin_min.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/lab_clin_min.rb": [
         1,
         1,
         null,
@@ -36064,26 +36062,26 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/lab_test_group.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/lab_test_group.rb": [
         1,
         1,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/lab_test_type_group.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/lab_test_type_group.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/models/ref/tagging.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/models/ref/tagging.rb": [
         1,
         null,
         null,
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/presenters/base_presenter.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/presenters/base_presenter.rb": [
         1,
         null,
         null,
@@ -36109,7 +36107,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/presenters/client_operations_presenter.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/presenters/client_operations_presenter.rb": [
         1,
         null,
         1,
@@ -36174,7 +36172,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/presenters/client_presenter.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/presenters/client_presenter.rb": [
         1,
         null,
         null,
@@ -36191,7 +36189,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/presenters/ref_presenter.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/presenters/ref_presenter.rb": [
         1,
         null,
         1,
@@ -36238,7 +36236,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/base_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/base_report.rb": [
         1,
         1,
         null,
@@ -36327,7 +36325,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/breport.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/breport.rb": [
         1,
         1,
         1,
@@ -36396,7 +36394,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/deads_by_ages_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/deads_by_ages_report.rb": [
         1,
         1,
         null,
@@ -36428,7 +36426,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/deads_by_desease_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/deads_by_desease_report.rb": [
         1,
         null,
         null,
@@ -36468,7 +36466,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/death_reports_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/death_reports_report.rb": [
         1,
         1,
         null,
@@ -36479,7 +36477,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_by_group_imobile_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_by_group_imobile_report.rb": [
         1,
         1,
         1,
@@ -36510,7 +36508,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_by_group_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_by_group_report.rb": [
         1,
         null,
         null,
@@ -36539,7 +36537,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_by_groupn.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_by_groupn.rb": [
         1,
         null,
         null,
@@ -36581,7 +36579,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_by_mkb_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_by_mkb_report.rb": [
         1,
         1,
         null,
@@ -36636,7 +36634,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_efficency_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_efficency_report.rb": [
         1,
         1,
         1,
@@ -36657,181 +36655,6 @@
         0,
         0,
         null,
-        null,
-        null,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/disp_invalids_report.rb": [
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/doctor_function_report.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/doctor_visit_plan_report.rb": [
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
         null,
         null,
         0,
@@ -36844,7 +36667,154 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/doctor_visit_structure_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/disp_invalids_report.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/doctor_function_report.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/doctor_visit_plan_report.rb": [
         1,
         null,
         null,
@@ -36872,7 +36842,35 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/hosp_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/doctor_visit_structure_report.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/hosp_report.rb": [
         1,
         1,
         1,
@@ -36931,7 +36929,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/hosp_therap_extra_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/hosp_therap_extra_report.rb": [
         1,
         1,
         1,
@@ -36964,7 +36962,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/imobile_death_structure_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/imobile_death_structure_report.rb": [
         1,
         null,
         1,
@@ -37004,7 +37002,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/imobile_hosp_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/imobile_hosp_report.rb": [
         1,
         1,
         1,
@@ -37033,7 +37031,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/inspected_disables_count_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/inspected_disables_count_report.rb": [
         1,
         1,
         null,
@@ -37078,7 +37076,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/invalids_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/invalids_report.rb": [
         1,
         1,
         1,
@@ -37125,7 +37123,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/out_consult_count_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/out_consult_count_report.rb": [
         1,
         1,
         1,
@@ -37162,7 +37160,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/people_structure_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/people_structure_report.rb": [
         1,
         1,
         1,
@@ -37205,7 +37203,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/prof_desease_freq_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/prof_desease_freq_report.rb": [
         1,
         1,
         1,
@@ -37237,10 +37235,10 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/prof_inspection_plan_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/prof_inspection_plan_report.rb": [
 
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/reports/sickness_rate_report.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/reports/sickness_rate_report.rb": [
         1,
         1,
         null,
@@ -37288,7 +37286,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/widgets/lab_test/count_widget.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/widgets/lab_test/count_widget.rb": [
         1,
         1,
         1,
@@ -37319,7 +37317,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/widgets/lab_test/form_widget.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/widgets/lab_test/form_widget.rb": [
         1,
         1,
         null,
@@ -37351,7 +37349,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/widgets/lab_test/list_widget.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/widgets/lab_test/list_widget.rb": [
         1,
         1,
         1,
@@ -37397,7 +37395,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/app/widgets/lab_test/page_widget.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/app/widgets/lab_test/page_widget.rb": [
         1,
         1,
         null,
@@ -37420,7 +37418,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/factories.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/factories.rb": [
         1,
         1,
         1,
@@ -37634,7 +37632,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/factories/inspections_neurologists.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/factories/inspections_neurologists.rb": [
         null,
         null,
         1,
@@ -37642,7 +37640,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/factories/med_diagnostic_test_doctors.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/factories/med_diagnostic_test_doctors.rb": [
         null,
         null,
         1,
@@ -37652,17 +37650,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/spec/factories/ref_lab_test_groups.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/spec/factories/ref_lab_test_type_groups.rb": [
-        null,
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/spec/factories/ref_lab_test_groups.rb": [
         null,
         null,
         null,
@@ -37671,7 +37659,17 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/config/routes.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/spec/factories/ref_lab_test_type_groups.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/config/routes.rb": [
         1,
         null,
         null,
@@ -37818,7 +37816,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/benefits_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/benefits_controller_test.rb": [
         1,
         null,
         1,
@@ -37866,7 +37864,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/clients_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/clients_controller_test.rb": [
         1,
         null,
         1,
@@ -37917,7 +37915,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/diagnoses_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/diagnoses_controller_test.rb": [
         1,
         null,
         1,
@@ -37973,7 +37971,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/diagnostic_tests_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/diagnostic_tests_controller_test.rb": [
         1,
         null,
         1,
@@ -38024,7 +38022,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/disps_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/disps_controller_test.rb": [
         1,
         null,
         1,
@@ -38072,7 +38070,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/hospitalizations_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/hospitalizations_controller_test.rb": [
         1,
         null,
         1,
@@ -38119,156 +38117,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/htm_help_notes_controller_test.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        6,
-        6,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/inspections/neurologists_controller_test.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/lab_tests_controller_test.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        6,
-        6,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/med_diagnostic_tests_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/htm_help_notes_controller_test.rb": [
         1,
         null,
         1,
@@ -38316,7 +38165,156 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/mkbs_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/inspections/neurologists_controller_test.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/lab_tests_controller_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        6,
+        6,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/med_diagnostic_tests_controller_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        6,
+        6,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/mkbs_controller_test.rb": [
         1,
         null,
         1,
@@ -38364,7 +38362,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/mse_calendar_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/mse_calendar_controller_test.rb": [
         1,
         null,
         1,
@@ -38382,7 +38380,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/mses_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/mses_controller_test.rb": [
         1,
         null,
         1,
@@ -38437,7 +38435,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/prof_inspections_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/prof_inspections_controller_test.rb": [
         1,
         null,
         1,
@@ -38485,7 +38483,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/benefit_categories_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/benefit_categories_controller_test.rb": [
         1,
         null,
         1,
@@ -38538,7 +38536,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/death_reasons_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/death_reasons_controller_test.rb": [
         1,
         null,
         1,
@@ -38589,7 +38587,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/diagnostic_test_types_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/diagnostic_test_types_controller_test.rb": [
         1,
         null,
         1,
@@ -38636,7 +38634,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/doctor_types_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/doctor_types_controller_test.rb": [
         1,
         null,
         1,
@@ -38683,7 +38681,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/hospitalization_types_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/hospitalization_types_controller_test.rb": [
         1,
         null,
         1,
@@ -38729,100 +38727,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/htm_help_types_controller_test.rb": [
-        1,
-        null,
-        1,
-        1,
-        6,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/ins_companies_controller_test.rb": [
-        1,
-        null,
-        1,
-        1,
-        6,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/lab_test_types_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/htm_help_types_controller_test.rb": [
         1,
         null,
         1,
@@ -38869,7 +38774,53 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/med_diagnostic_test_types_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/ins_companies_controller_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        6,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/lab_test_types_controller_test.rb": [
         1,
         null,
         1,
@@ -38916,7 +38867,54 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/mkb_types_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/med_diagnostic_test_types_controller_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        6,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/mkb_types_controller_test.rb": [
         1,
         null,
         1,
@@ -38968,7 +38966,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/ref/sanatoria_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/ref/sanatoria_controller_test.rb": [
         1,
         null,
         1,
@@ -39019,7 +39017,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/rep/main_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/rep/main_controller_test.rb": [
         1,
         null,
         1,
@@ -39029,7 +39027,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/sanatorium_notes_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/sanatorium_notes_controller_test.rb": [
         1,
         null,
         1,
@@ -39077,7 +39075,7 @@
         null,
         null
       ],
-      "/Users/vith/Desktop/projects/rails/medical_base/test/functional/users_controller_test.rb": [
+      "/Users/vith/Desktop/projects/rails/medical_base_git/medical_base/test/functional/users_controller_test.rb": [
         1,
         null,
         1,
@@ -39129,6 +39127,6 @@
         null
       ]
     },
-    "timestamp": 1358264132
+    "timestamp": 1359005213
   }
 }

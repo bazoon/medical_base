@@ -14,7 +14,6 @@ class LabTest < ActiveRecord::Base
   scope :client_disabled,lambda { joins(:client).merge(Client.disables)}
 
 
-
   def self.current_year
     start_date=Time.now.beginning_of_year
     end_date=Time.now.end_of_year
@@ -25,7 +24,6 @@ class LabTest < ActiveRecord::Base
   def self.prof_inspection_min
 
     all.map {|lt| lt if lt.lab_test_type && lt.lab_test_type.clin_min_list.include?(I18n.t(:prof_tag_name))}.compact
-
 
   end
 
