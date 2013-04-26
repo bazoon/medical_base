@@ -11,7 +11,7 @@ gem 'sqlite3'
 # in production environments by default.
 #
 
-gem 'dalli'
+# gem 'dalli'
 group :assets do
    # gem 'coffee-rails', "~> 3.2.1"
   gem 'uglifier'
@@ -20,7 +20,7 @@ group :assets do
   gem 'jquery-ui-rails'
 end
 
-gem 'newrelic_rpm'
+# gem 'newrelic_rpm'
 
 gem 'haml-rails'
 

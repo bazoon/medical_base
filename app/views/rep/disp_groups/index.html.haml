@@ -1,0 +1,60 @@
+%h3 Распределение пациентов по возрасту
+- report "DispGroup" do |p|
+  - p.fill
+
+  %table.table.table-condensed.table-striped.table-bordered
+
+    %thead
+      %tr
+        %th= "Возраст в #{DateTime.now.year} году"
+        %th Количество
+        %th Мужчины
+        %th Женщины
+      
+    %tbody
+
+
+      -p.rows.each_pair do |group_name, clients|
+        %tr
+          %td=group_name
+          %td="#{clients[0].count + clients[1].count}"
+          %td 
+            - clients[0].each do |client|
+              %p="#{client.num_card}" +", " +client.fio+", "+client.local_date(:birth_date) + " (#{client.primary_benefit_name})"
+
+          %td 
+            - clients[1].each do |client|
+              %p="#{client.num_card}" +", " +client.fio+", "+client.local_date(:birth_date) + " (#{client.primary_benefit_name})"
+        
+      %tr
+        %td Всего 
+        %td="#{p.total_male + p.total_female}" 
+        %td=p.total_male
+        %td=p.total_female
+
+
+
+
+
+
+
+
+    / %table.table.table-condensed.table-striped.table-bordered
+
+    /   %thead
+    /     %tr
+    /       %th= "Возраст в #{DateTime.now.year} году"
+    /       %th Количество
+    /       %th М
+    /       %th Ж
+        
+    /   %tbody
+
+
+    /     -p.rows.each_pair do |group_name, clients|
+    /       %tr
+    /         %td=group_name
+    /         %td="#{clients[0].count + clients[1].count}"
+    /         %td="#{clients[0].count}"  
+    /         %td="#{clients[1].count}"  
+    /         

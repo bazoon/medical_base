@@ -38,8 +38,13 @@ Medical::Application.routes.draw do
 
 
     resources :service, :only => [:edit,:create] 
+   
+    resources :disp_groups,:only => [:index]
+      #   get :index
 
-
+      # end
+    # end    
+  
 
   end
 

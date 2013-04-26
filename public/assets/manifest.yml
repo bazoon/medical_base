@@ -2,6 +2,7 @@
 b.png: b-44fdc88503e83f4fd9a3593687a62e4c.png
 bar.gif: bar-5130435286e30bf9a806cdf85d232a32.gif
 bg.gif: bg-f014b54388124c808089c9a887c7ab03.gif
+closelabel.png: closelabel-ee7ee9924246ee1b0a3062e529dea1ce.png
 dotted1.gif: dotted1-bcea9f4e915ddce69666d6fdcd4bf2a0.gif
 dotted2.gif: dotted2-2ce19113bcf5c9477ff0f3fe03cfe27b.gif
 down_arrow.gif: down_arrow-21fafec49055a9c8b16f3ed251309d68.gif
@@ -77,6 +78,7 @@ icons/Window.png: icons/Window-24cb31f3e3b42ce021d2d84274ac3587.png
 icons/Wizard.png: icons/Wizard-861e374ec146151aec275ebe6b3cd3d9.png
 icons/Write.png: icons/Write-d6766c11212c5edc11374ea219fa2646.png
 link.gif: link-f585c4d677fbd2e59751e88875634c18.gif
+loading.gif: loading-a39c502319cc5ab640a9ebb561a524b2.gif
 mainbg.jpg: mainbg-e464c6b6c072ed39e20c1313f65781ab.jpg
 pattern_01.gif: pattern_01-5ed8ec7226cf72168cf9ac1b13b8051e.gif
 rails.png: rails-760ca6a75858af7ba07896f76e1d2714.png
@@ -98,8 +100,8 @@ ui-icons_454545_256x240.png: ui-icons_454545_256x240-84e5fa87848b5e7b96b48812c92
 ui-icons_888888_256x240.png: ui-icons_888888_256x240-dcc6b311eb4a1d419606ed4e252262bf.png
 ui-icons_cd0a0a_256x240.png: ui-icons_cd0a0a_256x240-20596e8dc9aa43a327e0af750a91c131.png
 up_arrow.gif: up_arrow-60d26df6ac337d70d8722294ee371e9b.gif
-application.js: application-5f2a5c764b5c9330735a86f21f55a821.js
-application.css: application-cf26c73006ac316e8206d5ba3833cafe.css
+application.js: application-d5629788bedd730f80f5d2f894f9b4a2.js
+application.css: application-98b94aaedcc3e2b987c4184dcb6ea5e4.css
 images/glyphicons-halflings-white.png: images/glyphicons-halflings-white-fb2ee3258dc641aaaa834b501f7166cb.png
 images/glyphicons-halflings.png: images/glyphicons-halflings-fb2ee3258dc641aaaa834b501f7166cb.png
 images/ui-bg_flat_0_aaaaaa_40x100.png: images/ui-bg_flat_0_aaaaaa_40x100-699da10ee38fc4a6a91aa71c0fcf91ea.png

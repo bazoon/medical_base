@@ -1,0 +1,29 @@
+%h3 Распределение диспансерной группы по возрасту
+- report "DispGroup" do |p|
+  - p.prepare(sd,ed,years,sector_num)
+  - p.fill
+
+  %table.table.table-condensed.table-striped.table-bordered
+
+    %thead
+      %tr
+        %th= "Возраст в #{DateTime.now.year} году"
+        %th Мужчины
+        %th Женщины
+        
+    %tbody
+
+
+      -p.rows.each_pair do |group_name, clients|
+        %tr
+          %td=group_name
+          %td 
+            - clients[0].each do |client|
+              %p=client.fio+" "+client.local_date(:birth_date)
+
+          %td 
+            - clients[1].each do |client|
+              %p=client.fio+" "+client.local_date(:birth_date)
+        
+      %tr
+        %td Всего 

@@ -35,7 +35,14 @@ def prepare_fixed_num_rows(sd,ed,years,num_rows,sector_num)
 end
 
  def apply_sector_num(relation)
-  relation.client_sector(@sector_num) unless @sector_num.nil? or @sector_num.blank?
+  
+  # relation.client_sector(@sector_num) unless @sector_num.nil? or @sector_num.blank?
+  unless @sector_num.nil? or @sector_num.blank?
+    relation.client_sector(@sector_num)
+  else  
+    relation 
+  end
+
  end
 
 

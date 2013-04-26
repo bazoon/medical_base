@@ -74,9 +74,9 @@ class Client < ActiveRecord::Base
   scope :repressed,joins(:benefits,:benefit_categories).merge(Ref::BenefitCategory.repressed).merge(Benefit.primary)
   scope :chernobil,joins(:benefits,:benefit_categories).merge(Ref::BenefitCategory.chernobil).merge(Benefit.primary)
 
+  scope :all_benefits,joins(:benefits,:benefit_categories).merge(Benefit.primary)
 
 
-# http://localhost:3000/users
   #Участок пациента
   scope :sector,lambda {|sector_num|  where("num_card like ?",sector_num.to_s+"%") }
 
@@ -105,7 +105,7 @@ class Client < ActiveRecord::Base
   scope :full_inspected,lambda { where("prof_inspections_count >= 12") } #Период не выбран ! Использовать только для выборки за определенный год
   scope :rested,lambda { where("sanatorium_notes_count > 0") } #Период не выбран ! Использовать только для выборки за определенный год
 
-  #Mse scoupes
+  #Mse scopes
   scope :mse_group_increased, lambda {joins(:mses).merge(Mse.group_increase )}
   scope :mse_group_increased_2_1, lambda {joins(:mses).merge(Mse.group_increase_2_1 )}
   scope :mse_group_increased_3_2, lambda {joins(:mses).merge(Mse.group_increase_3_2 )}
@@ -118,12 +118,24 @@ class Client < ActiveRecord::Base
   scope :mse_re_3_2, lambda {joins(:mses).merge(Mse.re_3_2 )}
 
 
-  #Mkbs scoupes
+  #Mkbs scopes
   scope :mkbs_before, lambda {|d| joins(:mkbs).merge(Mkb.before(d) )}
   scope :mkbs_between, lambda {|s,e| joins(:mkbs).merge(Mkb.between(s,e) )}
   scope :mkbs_present, lambda {|e| joins(:mkbs).merge(Mkb.present(e) )}
   scope :mkbs_gone, lambda {|s,e| joins(:mkbs).merge(Mkb.gone(s,e) )}
 
+
+  #birth_date scopes
+  scope :born_in, lambda {|year|  where("birth_date between ? and ?","01.01.#{year}","31.10.#{year}")} 
+  # scope :born_between, lambda {|sd,ed|  where("birth_date between ? and ?",sd,ed)} 
+  scope :years_old, (lambda do |year| 
+    born_year = DateTime.now.year - year
+    where("birth_date between ? and ?","01.01.#{born_year}","31.12.#{born_year}")
+  end)  
+
+  #Sex scopes
+  scope :male, lambda {where("client_sex_id = ?",MALE)}
+  scope :female, lambda {where("client_sex_id = ?",FEMALE)}
 
 
 def primary_benefit_code
@@ -131,10 +143,20 @@ def primary_benefit_code
     b = benefits.select {|b| b.prim = true}
     result = b.first unless b.nil?
     result ||= benefits.first
-    "0"+result.benefit_category.code.to_s
+    "0"+result.benefit_category.code.to_s unless result.benefit_category.nil?
   end
 end
 
+def primary_benefit_name
+  unless benefits.nil? or benefits.empty?
+    b = benefits.select {|b| b.prim = true}
+    result = b.first unless b.nil?
+    result ||= benefits.first
+    result.benefit_category.short_name unless result.benefit_category.nil?
+      
+    
+  end
+end
 
 def death_reason_info
 "#{death_reason.try(:code)}: #{death_reason.try(:name)}" unless death_reason.nil?

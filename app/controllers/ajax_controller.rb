@@ -33,8 +33,8 @@ end
 
 def mkb_types
   if params[:term]
-    # list =  Rails.cache.fetch("ml#{params[:term]}") { make_mkb_type_list(params[:term]) }
-    list = make_mkb_type_list(params[:term]) }
+    list =  Rails.cache.fetch("ml#{params[:term]}") { make_mkb_type_list(params[:term]) }
+    # list = make_mkb_type_list(params[:term]) 
     render json: list
   end  
 end
